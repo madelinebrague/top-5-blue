@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Star, Check } from "lucide-react";
-import sheetsBackground from "@/assets/sheets-background.jpg";
+import sheetsBackground from "@/assets/stacked-sheets-background.jpg";
 import authorImage from "@/assets/author-katelyn.jpg";
 import { format } from "date-fns";
 
