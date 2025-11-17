@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Star, Check } from "lucide-react";
-import sheetsBackground from "@/assets/stacked-sheets-background.jpg";
+import sheetsBackground from "@/assets/sheets-background.jpg";
 import authorImage from "@/assets/author-katelyn.jpg";
 import { format } from "date-fns";
 
@@ -109,11 +109,11 @@ const Index = () => {
         style={{
           backgroundImage: `url(${sheetsBackground})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'right center',
+          backgroundPosition: 'center',
         }}
       >
-        {/* Gradient overlay for text readability - fade from left */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent"></div>
+        {/* Gradient overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-radial from-white/95 via-white/85 to-white/70"></div>
         
         <div className="relative max-w-6xl mx-auto text-center">
           <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
