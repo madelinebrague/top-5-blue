@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Star, Check } from "lucide-react";
 import sheetsBackground from "@/assets/sheets-background.jpg";
+import authorImage from "@/assets/author-katelyn.jpg";
+import { format } from "date-fns";
 
 const sheets = [
   {
@@ -88,6 +90,8 @@ const sheets = [
 ];
 
 const Index = () => {
+  const currentDate = format(new Date(), 'MMMM yyyy');
+  
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -115,9 +119,22 @@ const Index = () => {
           <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
             Best Bed Sheets
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
             This site is supported by our readers. We earn a commission through some of our links.
           </p>
+          
+          {/* Author Byline */}
+          <div className="flex items-center justify-center gap-3 text-sm text-muted-foreground">
+            <img 
+              src={authorImage} 
+              alt="Katelyn Zowalski" 
+              className="w-10 h-10 rounded-full object-cover border-2 border-white shadow-md"
+            />
+            <div className="text-left">
+              <div className="font-semibold text-foreground">Katelyn Zowalski</div>
+              <div>{currentDate}</div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -129,18 +146,18 @@ const Index = () => {
               <div className="grid md:grid-cols-[300px_1fr] gap-0">
                 {/* Left side - Image and Rank */}
                 <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
-                  <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-primary/20">
+                  <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-hero-blue-dark z-10">
                     {sheet.rank}
                   </div>
                   {sheet.badge && (
-                    <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground border-0">
+                    <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground border-0 z-10">
                       {sheet.badge}
                     </Badge>
                   )}
                   <img
                     src={sheet.image}
                     alt={sheet.name}
-                    className="w-full max-w-[250px] h-auto rounded-lg shadow-md mt-8"
+                    className="w-full max-w-[250px] h-auto rounded-lg shadow-md mt-16 md:mt-8"
                   />
                 </div>
 
