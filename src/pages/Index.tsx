@@ -1,11 +1,177 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Star, Check } from "lucide-react";
+
+const sheets = [
+  {
+    id: 1,
+    rank: 1,
+    name: "Avocado Organic Cotton Sheets",
+    badge: "Most Eco-Friendly",
+    image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=300&fit=crop",
+    description: "The goal of Avocado is simple; to make sheets that are non-toxic, with organic materials at an affordable price.",
+    features: [
+      "600 & 1,000 Thread count",
+      "STANDARD 100 OEKO-TEX® & MADE SAFE®",
+      "Made in USA"
+    ],
+    rating: 4.6,
+    positivePercent: 88,
+    bbbRating: "B+"
+  },
+  {
+    id: 2,
+    rank: 2,
+    name: "Saatva Organic Sheets",
+    badge: "Best Overall",
+    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&h=300&fit=crop",
+    description: "Number one on our list, Saatva's sheets combine comfort with luxury touches, so you really feel like you're getting what you're paying for.",
+    features: [
+      "300-thread count",
+      "Fair Trade Organic Standard GOTS certified",
+      "100% Organic Cotton"
+    ],
+    rating: 4.8,
+    positivePercent: 92,
+    bbbRating: "A+"
+  },
+  {
+    id: 3,
+    rank: 3,
+    name: "Brooklinen Luxe Core Sheet Set",
+    badge: "Best Value",
+    image: "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=400&h=300&fit=crop",
+    description: "Brooklinen's signature sheets are crafted from premium long-staple cotton for exceptional softness and durability.",
+    features: [
+      "480-thread count",
+      "100% Long-staple Cotton",
+      "OEKO-TEX Certified"
+    ],
+    rating: 4.5,
+    positivePercent: 85,
+    bbbRating: "A"
+  },
+  {
+    id: 4,
+    rank: 4,
+    name: "Parachute Percale Sheet Set",
+    badge: "Best Cooling",
+    image: "https://images.unsplash.com/photo-1582582621959-48d27397dc69?w=400&h=300&fit=crop",
+    description: "Crisp, breathable percale sheets that get softer with every wash. Perfect for hot sleepers.",
+    features: [
+      "200-thread count percale",
+      "100% Egyptian Cotton",
+      "OEKO-TEX Certified"
+    ],
+    rating: 4.7,
+    positivePercent: 90,
+    bbbRating: "A+"
+  },
+  {
+    id: 5,
+    rank: 5,
+    name: "Boll & Branch Signature Hemmed Sheet Set",
+    badge: "Best Luxury",
+    image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=400&h=300&fit=crop",
+    description: "Ethically produced, Fair Trade Certified sheets made from the finest organic cotton for ultimate luxury.",
+    features: [
+      "300-thread count",
+      "Fair Trade Certified",
+      "100% Organic Cotton"
+    ],
+    rating: 4.6,
+    positivePercent: 87,
+    bbbRating: "A"
+  }
+];
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-background">
+      {/* Hero Section */}
+      <div className="relative bg-gradient-to-r from-hero-blue to-hero-blue-dark text-white py-20 px-4">
+        <div className="max-w-6xl mx-auto text-center">
+          <h1 className="text-5xl md:text-6xl font-serif font-bold mb-4">
+            Best Bed Sheets
+          </h1>
+          <p className="text-lg text-white/90 max-w-2xl mx-auto">
+            This site is supported by our readers. We earn a commission through some of our links.
+          </p>
+        </div>
+      </div>
+
+      {/* Main Content */}
+      <div className="max-w-5xl mx-auto px-4 py-12">
+        {sheets.map((sheet, index) => (
+          <Card key={sheet.id} className="mb-8 overflow-hidden border-2 hover:shadow-lg transition-shadow">
+            <CardContent className="p-0">
+              <div className="grid md:grid-cols-[300px_1fr] gap-0">
+                {/* Left side - Image and Rank */}
+                <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
+                  <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-primary/20">
+                    {sheet.rank}
+                  </div>
+                  {sheet.badge && (
+                    <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground border-0">
+                      {sheet.badge}
+                    </Badge>
+                  )}
+                  <img
+                    src={sheet.image}
+                    alt={sheet.name}
+                    className="w-full max-w-[250px] h-auto rounded-lg shadow-md mt-8"
+                  />
+                </div>
+
+                {/* Right side - Content */}
+                <div className="p-6 md:p-8">
+                  <h2 className="text-3xl font-serif font-bold text-foreground mb-3">
+                    {sheet.name}
+                  </h2>
+                  
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    {sheet.description}
+                  </p>
+
+                  {/* Features */}
+                  <ul className="space-y-2 mb-6">
+                    {sheet.features.map((feature, idx) => (
+                      <li key={idx} className="flex items-start gap-2 text-sm">
+                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                        <span>{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+
+                  {/* CTA Button */}
+                  <Button className="w-full md:w-auto mb-6 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
+                    SHOP NOW
+                  </Button>
+
+                  {/* Ratings */}
+                  <div className="flex flex-wrap gap-6 pt-4 border-t border-border/50">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm text-muted-foreground">Google Shopping Ratings</span>
+                      <div className="flex items-center gap-1">
+                        <Star className="h-4 w-4 fill-primary text-primary" />
+                        <span className="font-semibold">{sheet.rating}</span>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Check className="h-4 w-4 text-primary" />
+                      <span className="font-semibold">{sheet.positivePercent}% Positive</span>
+                    </div>
+                    <div>
+                      <span className="text-sm text-muted-foreground">BBB Rating: </span>
+                      <span className="font-semibold">{sheet.bbbRating}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        ))}
       </div>
     </div>
   );
