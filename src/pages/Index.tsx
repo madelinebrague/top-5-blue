@@ -4,15 +4,16 @@ import { Badge } from "@/components/ui/badge";
 import { Star, Check, Award } from "lucide-react";
 import sheetsBackground from "@/assets/sheets-background.jpg";
 import authorImage from "@/assets/author-katelyn.jpg";
+import cozyEarthImage from "@/assets/cozy-earth-sheets.png";
 import { format } from "date-fns";
 
 const sheets = [
   {
     id: 1,
     rank: 1,
-    name: "Avocado Organic Cotton Sheets",
+    name: "Cozy Earth Bamboo Sheet Set",
     badge: "Most Eco-Friendly",
-    image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=300&fit=crop",
+    image: cozyEarthImage,
     description: "The goal of Avocado is simple; to make sheets that are non-toxic, with organic materials at an affordable price.",
     features: [
       "600 & 1,000 Thread count",
