@@ -117,7 +117,7 @@ const Index = () => {
         
         <div className="relative max-w-6xl mx-auto text-center">
           {/* White bar behind text */}
-          <div className="bg-white py-8 px-4 mb-6">
+          <div className="bg-white py-8 px-4 mb-6 max-w-3xl mx-auto">
             <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
               Best Bed Sheets
             </h2>
