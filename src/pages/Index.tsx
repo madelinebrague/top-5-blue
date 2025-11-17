@@ -201,7 +201,7 @@ const Index = () => {
                     {sheet.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start gap-2 text-sm">
                         {sheet.rank === 1 && idx === 0 ? (
-                          <Award className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                          <Award className="h-6 w-6 shrink-0 mt-0.5 text-hero-blue-dark fill-gold drop-shadow-md" />
                         ) : (
                           <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                         )}
