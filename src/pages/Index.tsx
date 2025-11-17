@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Star, Check } from "lucide-react";
+import sheetsBackground from "@/assets/sheets-background.jpg";
 
 const sheets = [
   {
@@ -89,13 +90,32 @@ const sheets = [
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-hero-blue to-hero-blue-dark text-white py-20 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold mb-4">
-            Best Bed Sheets
+      {/* Header */}
+      <header className="bg-black text-white py-4 px-4 md:px-8">
+        <div className="max-w-6xl mx-auto">
+          <h1 className="text-2xl md:text-3xl font-serif font-bold">
+            The Mattress Gal
           </h1>
-          <p className="text-lg text-white/90 max-w-2xl mx-auto">
+        </div>
+      </header>
+
+      {/* Hero Section */}
+      <div 
+        className="relative py-20 px-4 overflow-hidden"
+        style={{
+          backgroundImage: `url(${sheetsBackground})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        {/* Gradient overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-radial from-white/95 via-white/85 to-white/70"></div>
+        
+        <div className="relative max-w-6xl mx-auto text-center">
+          <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
+            Best Bed Sheets
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             This site is supported by our readers. We earn a commission through some of our links.
           </p>
         </div>
