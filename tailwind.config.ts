@@ -25,6 +25,7 @@ export default {
         foreground: "hsl(var(--foreground))",
         "hero-blue": "hsl(var(--hero-blue))",
         "hero-blue-dark": "hsl(var(--hero-blue-dark))",
+        "gold": "hsl(var(--gold))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
