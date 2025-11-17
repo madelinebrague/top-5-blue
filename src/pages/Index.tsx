@@ -116,12 +116,15 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-radial from-white/95 via-white/85 to-white/70"></div>
         
         <div className="relative max-w-6xl mx-auto text-center">
-          <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
-            Best Bed Sheets
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
-            This site is supported by our readers. We earn a commission through some of our links.
-          </p>
+          {/* White bar behind text */}
+          <div className="bg-white py-8 px-4 mb-6">
+            <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
+              Best Bed Sheets
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              This site is supported by our readers. We earn a commission through some of our links.
+            </p>
+          </div>
           
           {/* Author Byline */}
           <div className="flex items-center justify-center gap-3 text-sm text-muted-foreground">
