@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Star, Check } from "lucide-react";
+import { Star, Check, Award } from "lucide-react";
 import sheetsBackground from "@/assets/sheets-background.jpg";
 import authorImage from "@/assets/author-katelyn.jpg";
 import { format } from "date-fns";
@@ -17,7 +17,10 @@ const sheets = [
     features: [
       "600 & 1,000 Thread count",
       "STANDARD 100 OEKO-TEX® & MADE SAFE®",
-      "Made in USA"
+      "Made in USA",
+      "100% Organic Cotton",
+      "Breathable & Temperature Regulating",
+      "Lifetime Warranty"
     ],
     rating: 4.6,
     positivePercent: 88,
@@ -157,7 +160,7 @@ const Index = () => {
                   <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-hero-blue-dark z-10">
                     {sheet.rank}
                   </div>
-                  {sheet.badge && (
+                  {sheet.rank === 1 && sheet.badge && (
                     <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground border-0 z-10">
                       {sheet.badge}
                     </Badge>
@@ -197,7 +200,11 @@ const Index = () => {
                   <ul className="space-y-2 mb-6">
                     {sheet.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start gap-2 text-sm">
-                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                        {sheet.rank === 1 && idx === 0 ? (
+                          <Award className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                        ) : (
+                          <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                        )}
                         <span>{feature}</span>
                       </li>
                     ))}
