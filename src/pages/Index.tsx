@@ -12,7 +12,7 @@ const sheets = [
     id: 1,
     rank: 1,
     name: "Cozy Earth Bamboo Sheet Set",
-    badge: "Most Eco-Friendly",
+    badge: "TOP PICK OF 2025",
     image: cozyEarthImage,
     description: "The goal of Avocado is simple; to make sheets that are non-toxic, with organic materials at an affordable price.",
     features: [
@@ -162,7 +162,7 @@ const Index = () => {
                     {sheet.rank}
                   </div>
                   {sheet.rank === 1 && sheet.badge && (
-                    <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground border-0 z-10">
+                    <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground border-0 z-10 text-base px-4 py-2 font-bold">
                       {sheet.badge}
                     </Badge>
                   )}
