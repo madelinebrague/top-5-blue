@@ -21,7 +21,8 @@ const sheets = [
     ],
     rating: 4.6,
     positivePercent: 88,
-    bbbRating: "B+"
+    bbbRating: "B+",
+    affiliateLink: "https://example.com/avocado-affiliate"
   },
   {
     id: 2,
@@ -37,7 +38,8 @@ const sheets = [
     ],
     rating: 4.8,
     positivePercent: 92,
-    bbbRating: "A+"
+    bbbRating: "A+",
+    affiliateLink: "https://example.com/saatva-affiliate"
   },
   {
     id: 3,
@@ -53,7 +55,8 @@ const sheets = [
     ],
     rating: 4.5,
     positivePercent: 85,
-    bbbRating: "A"
+    bbbRating: "A",
+    affiliateLink: "https://example.com/brooklinen-affiliate"
   },
   {
     id: 4,
@@ -69,7 +72,8 @@ const sheets = [
     ],
     rating: 4.7,
     positivePercent: 90,
-    bbbRating: "A+"
+    bbbRating: "A+",
+    affiliateLink: "https://example.com/parachute-affiliate"
   },
   {
     id: 5,
@@ -85,7 +89,8 @@ const sheets = [
     ],
     rating: 4.6,
     positivePercent: 87,
-    bbbRating: "A"
+    bbbRating: "A",
+    affiliateLink: "https://example.com/bollandbranch-affiliate"
   }
 ];
 
@@ -157,18 +162,32 @@ const Index = () => {
                       {sheet.badge}
                     </Badge>
                   )}
-                  <img
-                    src={sheet.image}
-                    alt={sheet.name}
-                    className="w-full max-w-[250px] h-auto rounded-lg shadow-md mt-16 md:mt-8"
-                  />
+                  <a 
+                    href={sheet.affiliateLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <img
+                      src={sheet.image}
+                      alt={sheet.name}
+                      className="w-full max-w-[250px] h-auto rounded-lg shadow-md mt-16 md:mt-8 hover:opacity-90 transition-opacity cursor-pointer"
+                    />
+                  </a>
                 </div>
 
                 {/* Right side - Content */}
                 <div className="p-6 md:p-8">
-                  <h2 className="text-3xl font-serif font-bold text-foreground mb-3">
-                    {sheet.name}
-                  </h2>
+                  <a 
+                    href={sheet.affiliateLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block hover:opacity-80 transition-opacity"
+                  >
+                    <h2 className="text-3xl font-serif font-bold text-foreground mb-3">
+                      {sheet.name}
+                    </h2>
+                  </a>
                   
                   <p className="text-muted-foreground mb-6 leading-relaxed">
                     {sheet.description}
@@ -185,9 +204,16 @@ const Index = () => {
                   </ul>
 
                   {/* CTA Button */}
-                  <Button className="w-full md:w-auto mb-6 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
-                    SHOP NOW
-                  </Button>
+                  <a 
+                    href={sheet.affiliateLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block"
+                  >
+                    <Button className="w-full md:w-auto mb-6 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
+                      SHOP NOW
+                    </Button>
+                  </a>
 
                   {/* Ratings */}
                   <div className="flex flex-wrap gap-6 pt-4 border-t border-border/50">
