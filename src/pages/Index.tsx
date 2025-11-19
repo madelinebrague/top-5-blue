@@ -240,16 +240,12 @@ const Index = () => {
 
         {/* Duplicate First Card with Banner */}
         <Card className="mb-8 overflow-hidden border-2 hover:shadow-lg transition-shadow">
-          <div className="bg-orange-500 text-white text-center py-4 px-6 font-bold text-xl">
-            BEST SHEETS OF 2025
-          </div>
+          <div className="bg-orange-500 text-white text-center py-4 px-6 font-bold text-xl">BEST SHEETS OF 2025</div>
           <CardContent className="p-0">
             <div className="grid md:grid-cols-[300px_1fr] gap-0">
               {/* Left side - Image and Rank */}
               <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
-                <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-hero-blue-dark z-10">
-                  1
-                </div>
+                <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-hero-blue-dark z-10">1</div>
                 <a
                   href={sheets[0].affiliateLink}
                   target="_blank"
@@ -335,20 +331,20 @@ const Index = () => {
               <div className="text-center mb-8">
                 <Badge className="bg-primary text-primary-foreground mb-4 text-sm px-4 py-2">IN-DEPTH REVIEW</Badge>
                 <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">
-                  Why Oprah Called These "The Best Sheets Ever"
+                  Why Oprah Called Cozy Earth Sheets "The Softest Ever"
                 </h2>
-                <p className="text-lg text-muted-foreground">
-                  The luxury bedding that's changing how America sleeps
-                </p>
+                <p className="text-lg text-muted-foreground">The luxury bedding that's changing how America sleeps</p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="space-y-6">
                   <p className="text-foreground leading-relaxed">
-                    When Oprah Winfrey puts something on her "Favorite Things" list, people listen. And when she called Cozy Earth Bamboo Sheets the best sheets she's ever slept on, the internet went wild.
+                    When Oprah Winfrey puts something on her "Favorite Things" list, people listen. And when she called
+                    Cozy Earth Bamboo Sheets the best sheets she's ever slept on, the internet went wild.
                   </p>
                   <p className="text-foreground leading-relaxed">
-                    But here's the thing: the hype is actually justified. These aren't just celebrity-endorsed sheets—they're genuinely transformative for your sleep quality.
+                    But here's the thing: the hype is actually justified. These aren't just celebrity-endorsed sheets.
+                    They turn your bed into a sanctuary, helping you get the best sleep of your life.
                   </p>
                   <div className="bg-white/80 backdrop-blur rounded-lg p-6 border-l-4 border-primary">
                     <p className="text-foreground font-semibold mb-2">"I can't sleep without them anymore."</p>
@@ -393,37 +389,31 @@ const Index = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-foreground mb-4">
-                      Bamboo viscose is naturally breathable and moisture-wicking. While cotton sheets trap heat and moisture, Cozy Earth sheets actively regulate your temperature throughout the night.
+                      Bamboo viscose is naturally breathable and moisture-wicking. While cotton sheets trap heat and
+                      moisture, Cozy Earth sheets actively regulate your temperature throughout the night.
                     </p>
                     <p className="text-foreground">
                       The result? You fall asleep faster, stay asleep longer, and wake up feeling more refreshed.
                     </p>
                   </div>
                   <div className="flex items-center justify-center">
-                    <img
-                      src={oprahBadge}
-                      alt="Oprah's Favorite Things"
-                      className="w-48 h-auto"
-                    />
+                    <img src={oprahBadge} alt="Oprah's Favorite Things" className="w-48 h-auto" />
                   </div>
                 </div>
               </div>
 
               <div className="text-center">
-                <p className="text-2xl font-serif font-bold text-foreground mb-4">
-                  Black Friday Exclusive: Save 40%
-                </p>
-                <p className="text-muted-foreground mb-6">
-                  Try them risk-free with a 100-night sleep trial
-                </p>
+                <p className="text-2xl font-serif font-bold text-foreground mb-4">Black Friday Exclusive: Save 40%</p>
+                <p className="text-muted-foreground mb-6">Try them risk-free with a 100-night sleep trial</p>
                 <a href="https://www.themattressgal.com/adv/" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-12 py-6">
+                  <Button
+                    size="lg"
+                    className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-12 py-6"
+                  >
                     CLAIM YOUR 40% DISCOUNT <ArrowRight className="ml-2 h-6 w-6" />
                   </Button>
                 </a>
-                <p className="text-sm text-muted-foreground mt-4">
-                  Limited time offer • Free shipping on all orders
-                </p>
+                <p className="text-sm text-muted-foreground mt-4">Limited time offer • Free shipping on all orders</p>
               </div>
             </div>
           </div>
