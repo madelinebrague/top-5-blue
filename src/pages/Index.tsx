@@ -539,6 +539,32 @@ const Index = () => {
           </div>
         </div>
 
+        {/* About the Author Section */}
+        <div className="my-12 md:my-16 bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-8 md:p-12 border border-border/50">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6 text-center">
+            About the Author
+          </h2>
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 max-w-4xl mx-auto">
+            <img
+              src={authorImage}
+              alt="Katelyn - The Mattress Gal"
+              className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-background shadow-lg"
+            />
+            <div className="flex-1 text-center md:text-left">
+              <h3 className="text-xl md:text-2xl font-semibold text-foreground mb-2">Katelyn</h3>
+              <p className="text-base md:text-lg text-muted-foreground mb-4">
+                Sleep Product Specialist & Founder of The Mattress Gal
+              </p>
+              <p className="text-sm md:text-base text-foreground leading-relaxed">
+                After years of restless nights and testing countless bedding products, I created The Mattress Gal 
+                to help others find their perfect sleep setup. I personally test every product I recommend and only 
+                share what genuinely works. When I'm not researching the latest in sleep technology, you'll find me 
+                enjoying quality rest on my Cozy Earth sheets.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Footer */}
         <footer className="border-t border-border/50 bg-muted/20 py-8 mt-16">
           <div className="container mx-auto px-4">
