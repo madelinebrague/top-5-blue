@@ -27,7 +27,7 @@ const sheets = [
     rating: 4.9,
     positivePercent: 88,
     bbbRating: "A+",
-    affiliateLink: "https://example.com/avocado-affiliate",
+    affiliateLink: "https://www.themattressgal.com/adv/",
   },
   {
     id: 2,
@@ -131,7 +131,10 @@ const Index = () => {
                 <div>{currentDate}</div>
               </div>
             </div>
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-10 mb-4">
+            <Button
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-10 mb-4"
+            >
               BLACK FRIDAY: SAVE 40% <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
