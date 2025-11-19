@@ -327,6 +327,107 @@ const Index = () => {
             </div>
           </CardContent>
         </Card>
+
+        {/* Advertorial Section */}
+        <div className="mt-16 mb-12">
+          <div className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-8 md:p-12">
+            <div className="max-w-4xl mx-auto">
+              <div className="text-center mb-8">
+                <Badge className="bg-primary text-primary-foreground mb-4 text-sm px-4 py-2">FEATURED STORY</Badge>
+                <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">
+                  Why Oprah Called These "The Best Sheets Ever"
+                </h2>
+                <p className="text-lg text-muted-foreground">
+                  The luxury bedding that's changing how America sleeps
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-8 mb-8">
+                <div className="space-y-6">
+                  <p className="text-foreground leading-relaxed">
+                    When Oprah Winfrey puts something on her "Favorite Things" list, people listen. And when she called Cozy Earth Bamboo Sheets the best sheets she's ever slept on, the internet went wild.
+                  </p>
+                  <p className="text-foreground leading-relaxed">
+                    But here's the thing: the hype is actually justified. These aren't just celebrity-endorsed sheets—they're genuinely transformative for your sleep quality.
+                  </p>
+                  <div className="bg-white/80 backdrop-blur rounded-lg p-6 border-l-4 border-primary">
+                    <p className="text-foreground font-semibold mb-2">"I can't sleep without them anymore."</p>
+                    <p className="text-sm text-muted-foreground">— Real customer review</p>
+                  </div>
+                </div>
+                <div className="relative">
+                  <img
+                    src={cozyEarthImage}
+                    alt="Cozy Earth Bamboo Sheets"
+                    className="rounded-lg shadow-lg w-full h-auto"
+                  />
+                  <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground rounded-full w-24 h-24 flex items-center justify-center shadow-xl">
+                    <div className="text-center">
+                      <div className="text-3xl font-bold">4.9</div>
+                      <div className="text-xs">Rating</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6 mb-8">
+                <div className="bg-white/60 backdrop-blur rounded-lg p-6 text-center">
+                  <div className="text-4xl mb-2">🌿</div>
+                  <h3 className="font-semibold text-foreground mb-2">100% Organic Bamboo</h3>
+                  <p className="text-sm text-muted-foreground">Sustainably sourced and eco-friendly</p>
+                </div>
+                <div className="bg-white/60 backdrop-blur rounded-lg p-6 text-center">
+                  <div className="text-4xl mb-2">❄️</div>
+                  <h3 className="font-semibold text-foreground mb-2">Temperature Regulating</h3>
+                  <p className="text-sm text-muted-foreground">Cool in summer, warm in winter</p>
+                </div>
+                <div className="bg-white/60 backdrop-blur rounded-lg p-6 text-center">
+                  <div className="text-4xl mb-2">✨</div>
+                  <h3 className="font-semibold text-foreground mb-2">Impossibly Soft</h3>
+                  <p className="text-sm text-muted-foreground">Softer than Egyptian cotton</p>
+                </div>
+              </div>
+
+              <div className="bg-white/80 backdrop-blur rounded-lg p-8 mb-8">
+                <h3 className="text-2xl font-serif font-bold text-foreground mb-4">The Science of Better Sleep</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <p className="text-foreground mb-4">
+                      Bamboo viscose is naturally breathable and moisture-wicking. While cotton sheets trap heat and moisture, Cozy Earth sheets actively regulate your temperature throughout the night.
+                    </p>
+                    <p className="text-foreground">
+                      The result? You fall asleep faster, stay asleep longer, and wake up feeling more refreshed.
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center">
+                    <img
+                      src={oprahBadge}
+                      alt="Oprah's Favorite Things"
+                      className="w-48 h-auto"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="text-center">
+                <p className="text-2xl font-serif font-bold text-foreground mb-4">
+                  Black Friday Exclusive: Save 40%
+                </p>
+                <p className="text-muted-foreground mb-6">
+                  Try them risk-free with a 100-night sleep trial
+                </p>
+                <a href="https://www.themattressgal.com/adv/" target="_blank" rel="noopener noreferrer">
+                  <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-12 py-6">
+                    CLAIM YOUR 40% DISCOUNT <ArrowRight className="ml-2 h-6 w-6" />
+                  </Button>
+                </a>
+                <p className="text-sm text-muted-foreground mt-4">
+                  Limited time offer • Free shipping on all orders
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
