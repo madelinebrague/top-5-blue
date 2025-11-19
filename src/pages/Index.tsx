@@ -131,12 +131,14 @@ const Index = () => {
                 <div>{currentDate}</div>
               </div>
             </div>
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-10 mb-4"
-            >
-              BLACK FRIDAY: SAVE 40% <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <a href="https://www.themattressgal.com/adv/" target="_blank" rel="noopener noreferrer">
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-10 mb-4"
+              >
+                BLACK FRIDAY: SAVE 40% <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </a>
           </div>
         </div>
       </div>
