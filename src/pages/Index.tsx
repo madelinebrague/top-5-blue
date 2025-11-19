@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Star, Check, Award } from "lucide-react";
+import { Star, Check, Award, ArrowRight } from "lucide-react";
 import sheetsBackground from "@/assets/sheets-background.jpg";
 import authorImage from "@/assets/author-katelyn.jpg";
 import cozyEarthImage from "@/assets/cozy-earth-sheets.png";
@@ -130,9 +130,12 @@ const Index = () => {
             <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
               Best Bed Sheets
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
               This site is supported by our readers. We earn a commission through some of our links.
             </p>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-8 py-6 h-auto">
+              BLACK FRIDAY: SAVE 40% <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
           </div>
           
           {/* Author Byline */}
