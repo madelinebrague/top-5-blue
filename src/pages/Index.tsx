@@ -226,10 +226,10 @@ const Index = () => {
                   {/* Ratings */}
                   <div className="flex flex-wrap gap-6 pt-4 border-t border-border/50">
                     <div className="flex items-center gap-2">
-                      <span className="text-sm text-muted-foreground">Google Shopping Ratings</span>
+                      <span className="text-sm text-muted-foreground">Overall Rating</span>
                       <div className="flex items-center gap-1">
                         <Star className="h-4 w-4 fill-primary text-primary" />
-                        <span className="font-semibold">{sheet.rating}</span>
+                        <span className="font-semibold">{6 - sheet.rank}</span>
                       </div>
                     </div>
                     <div className="flex items-center gap-2">
