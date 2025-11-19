@@ -5,6 +5,7 @@ import { Star, Check, Award, ArrowRight } from "lucide-react";
 import sheetsBackground from "@/assets/sheets-background.jpg";
 import authorImage from "@/assets/author-katelyn.jpg";
 import cozyEarthImage from "@/assets/cozy-earth-sheets.png";
+import oprahBadge from "@/assets/oprah-badge.png";
 import { format } from "date-fns";
 
 const sheets = [
@@ -174,12 +175,19 @@ const Index = () => {
                     href={sheet.affiliateLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block"
+                    className="block flex flex-col items-center gap-4"
                   >
+                    {sheet.rank === 1 && (
+                      <img
+                        src={oprahBadge}
+                        alt="Oprah's Favorite Things"
+                        className="w-full max-w-[200px] h-auto mt-16 md:mt-8"
+                      />
+                    )}
                     <img
                       src={sheet.image}
                       alt={sheet.name}
-                      className="w-full max-w-[250px] h-auto rounded-lg shadow-md mt-16 md:mt-8 hover:opacity-90 transition-opacity cursor-pointer"
+                      className="w-full max-w-[250px] h-auto rounded-lg shadow-md hover:opacity-90 transition-opacity cursor-pointer"
                     />
                   </a>
                 </div>
