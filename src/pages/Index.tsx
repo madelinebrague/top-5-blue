@@ -16,7 +16,7 @@ const sheets = [
     name: "Cozy Earth Bamboo Sheets",
     badge: "TOP PICK OF 2025",
     image: cozyEarthImage,
-    description: "Oprah was right. These sheets helped me sleep better from night 1.",
+    description: "Oprah was right. These incredible sheets helped me sleep better from night 1.",
     features: [
       "OPRAH'S FAVORITE THINGS WINNER",
       "100% Organic Bamboo Viscose",
@@ -156,7 +156,12 @@ const Index = () => {
                     {sheet.rank}
                   </div>
                   {sheet.rank === 1 && sheet.badge && (
-                    <a href={sheet.affiliateLink} target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4 z-10">
+                    <a
+                      href={sheet.affiliateLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="absolute top-4 right-4 z-10"
+                    >
                       <Badge className="bg-primary text-primary-foreground border-0 text-base px-4 py-2 font-bold hover:opacity-90 transition-opacity cursor-pointer">
                         {sheet.badge}
                       </Badge>
