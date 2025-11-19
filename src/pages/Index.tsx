@@ -331,25 +331,49 @@ const Index = () => {
           <div className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 md:p-12">
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-6 md:mb-8">
-                <Badge className="bg-primary text-primary-foreground mb-4 text-xs md:text-sm px-3 md:px-4 py-1.5 md:py-2">IN-DEPTH REVIEW</Badge>
+                <Badge className="bg-primary text-primary-foreground mb-4 text-xs md:text-sm px-3 md:px-4 py-1.5 md:py-2">
+                  IN-DEPTH REVIEW
+                </Badge>
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-foreground mb-3 md:mb-4 leading-tight">
-                  Why Oprah Called <a href="https://cozyearth.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Cozy Earth</a> Sheets "The Softest Ever"
+                  Why Oprah Called{" "}
+                  <a
+                    href="https://cozyearth.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    Cozy Earth
+                  </a>{" "}
+                  Sheets "The Softest Ever"
                 </h2>
-                <p className="text-base md:text-lg text-muted-foreground">The luxury bedding that's changing how America sleeps</p>
+                <p className="text-base md:text-lg text-muted-foreground">
+                  The luxury bedding that's changing how America sleeps
+                </p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-6 md:mb-8">
                 <div className="space-y-4 md:space-y-6">
                   <p className="text-foreground leading-relaxed text-sm md:text-base">
                     When Oprah Winfrey puts something on her "Favorite Things" list, people listen. And when she fell
-                    for <a href="https://cozyearth.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Cozy Earth's</a> bamboo viscose sheets, the internet went wild.
+                    for{" "}
+                    <a
+                      href="https://cozyearth.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      Cozy Earth's
+                    </a>{" "}
+                    bamboo viscose sheets, the internet went wild.
                   </p>
                   <p className="text-foreground leading-relaxed text-sm md:text-base">
                     But here's the thing: the hype is actually justified. These aren't just celebrity-endorsed sheets.
                     They turn your bed into a sanctuary, helping you get the best sleep of your life.
                   </p>
                   <div className="bg-white/80 backdrop-blur rounded-lg p-4 md:p-6 border-l-4 border-primary">
-                    <p className="text-foreground font-semibold mb-2 text-sm md:text-base">"I can't sleep without them anymore."</p>
+                    <p className="text-foreground font-semibold mb-2 text-sm md:text-base">
+                      "I can't sleep without them anymore."
+                    </p>
                     <p className="text-xs md:text-sm text-muted-foreground">— Real customer review</p>
                   </div>
                 </div>
@@ -371,7 +395,9 @@ const Index = () => {
               <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mb-6 md:mb-8">
                 <div className="bg-white/60 backdrop-blur rounded-lg p-4 md:p-6 text-center">
                   <div className="text-3xl md:text-4xl mb-2">🌿</div>
-                  <h3 className="font-semibold text-foreground mb-2 text-sm md:text-base">100% Organic Bamboo Viscose</h3>
+                  <h3 className="font-semibold text-foreground mb-2 text-sm md:text-base">
+                    100% Organic Bamboo Viscose
+                  </h3>
                   <p className="text-xs md:text-sm text-muted-foreground">Sustainably sourced and eco-friendly</p>
                 </div>
                 <div className="bg-white/60 backdrop-blur rounded-lg p-4 md:p-6 text-center">
@@ -387,12 +413,23 @@ const Index = () => {
               </div>
 
               <div className="bg-white/80 backdrop-blur rounded-lg p-6 md:p-8 mb-6 md:mb-8">
-                <h3 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-4">The Science of Better Sleep</h3>
+                <h3 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-4">
+                  The Science of Better Sleep
+                </h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-3 md:space-y-4">
                     <p className="text-foreground text-sm md:text-base">
                       Bamboo viscose is naturally breathable and moisture-wicking. While cotton sheets trap heat and
-                      moisture, <a href="https://cozyearth.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Cozy Earth</a> sheets actively regulate your temperature throughout the night.
+                      moisture,{" "}
+                      <a
+                        href="https://cozyearth.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline"
+                      >
+                        Cozy Earth
+                      </a>{" "}
+                      sheets actively regulate your temperature throughout the night.
                     </p>
                     <p className="text-foreground text-sm md:text-base">
                       The result? You fall asleep faster, stay asleep longer, and wake up feeling more refreshed.
@@ -405,8 +442,12 @@ const Index = () => {
               </div>
 
               <div className="text-center">
-                <p className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3 md:mb-4">Black Friday Exclusive: Save 40%</p>
-                <p className="text-muted-foreground mb-4 md:mb-6 text-sm md:text-base">Try them risk-free with a 100-night sleep trial</p>
+                <p className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3 md:mb-4">
+                  Black Friday Exclusive: Save 40%
+                </p>
+                <p className="text-muted-foreground mb-4 md:mb-6 text-sm md:text-base">
+                  Try them risk-free with a 100-night sleep trial
+                </p>
                 <a href="https://www.themattressgal.com/adv/" target="_blank" rel="noopener noreferrer">
                   <Button
                     size="lg"
@@ -415,7 +456,9 @@ const Index = () => {
                     CLAIM 40% OFF NOW <ArrowRight className="ml-2 h-5 md:h-6 w-5 md:w-6" />
                   </Button>
                 </a>
-                <p className="text-xs md:text-sm text-muted-foreground mt-4">Limited time offer • Free shipping over $100</p>
+                <p className="text-xs md:text-sm text-muted-foreground mt-4">
+                  Limited time offer • Free shipping over $100
+                </p>
               </div>
             </div>
           </div>
@@ -428,15 +471,19 @@ const Index = () => {
               Not Sure Cozy Earth Is Right for You?
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
-              We've tested dozens of sheet sets to find the perfect match for every sleeper. Here's who should consider our other top picks:
+              We've tested dozens of sheet sets to find the perfect match for every sleeper. Here's who should consider
+              our other top picks:
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-6 md:p-8 border border-border/50">
-              <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">Hot Sleepers on a Budget</h3>
+              <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">
+                Chronically Hot Sleepers
+              </h3>
               <p className="text-foreground mb-4 text-sm md:text-base">
-                If temperature regulation is your top priority but you want to save some money, <strong>Miracle Made Sheets</strong> use NASA-inspired silver-infused fabric that naturally dissipates heat. Plus, they stay fresher longer, requiring less frequent washing.
+                If you need unbeatable temperature regulation, <strong>Miracle Made Sheets</strong> are engineered to
+                naturally dissipate heat and kill bacteria. Kick night sweats to the curb!
               </p>
               <a href={sheets[1].affiliateLink} target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="w-full md:w-auto">
@@ -446,9 +493,12 @@ const Index = () => {
             </div>
 
             <div className="bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-6 md:p-8 border border-border/50">
-              <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">Luxury Seekers Who Love Sateen</h3>
+              <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">
+                Bamboo Lovers On A Budget
+              </h3>
               <p className="text-foreground mb-4 text-sm md:text-base">
-                If you prefer a silky-smooth sateen weave over bamboo viscose, <strong>Sleepgram Sheets</strong> deliver that ultra-soft hotel-quality feel at an accessible price point. They're OEKO-TEX certified and 2X softer than traditional cotton.
+                <strong>Sleepgram Sheets</strong> deliver that ultra-soft bamboo feel at an accessible price point. If
+                budget is your main concern, these are a definite upgrade from cotton.
               </p>
               <a href={sheets[2].affiliateLink} target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="w-full md:w-auto">
@@ -458,9 +508,14 @@ const Index = () => {
             </div>
 
             <div className="bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-6 md:p-8 border border-border/50">
-              <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">Wellness-Focused Sleepers</h3>
+              <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">
+                Wellness-Focused Sleepers
+              </h3>
               <p className="text-foreground mb-4 text-sm md:text-base">
-                For those interested in grounding therapy and holistic wellness, <strong>Grounding Co. Terra Bed Sheets</strong> are scientifically designed with silver threads to connect you to the earth's natural energy, potentially reducing inflammation and improving sleep quality.
+                For those interested in grounding therapy and holistic wellness,{" "}
+                <strong>Grounding Co. Terra Bed Sheets</strong> are scientifically designed with silver threads to
+                connect you to the earth's natural energy, potentially reducing inflammation and improving sleep
+                quality.
               </p>
               <a href={sheets[3].affiliateLink} target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="w-full md:w-auto">
@@ -472,7 +527,8 @@ const Index = () => {
             <div className="bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-6 md:p-8 border border-border/50">
               <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">Eco-Conscious Shoppers</h3>
               <p className="text-foreground mb-4 text-sm md:text-base">
-                If sustainable production is your main concern, <strong>Cariloha Bamboo Sheets</strong> feature a proprietary weave made from bamboo lyocell with an exceptionally eco-friendly production process. They're also 3 degrees cooler than cotton.
+                If sustainable production is your main concern, <strong>Cariloha Bamboo Sheets</strong> feature a
+                proprietary weave made from bamboo lyocell with an exceptionally eco-friendly production process.
               </p>
               <a href={sheets[4].affiliateLink} target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="w-full md:w-auto">
