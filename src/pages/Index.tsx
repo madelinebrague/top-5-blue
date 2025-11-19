@@ -5,6 +5,7 @@ import { Star, Check, Award, ArrowRight } from "lucide-react";
 import sheetsBackground from "@/assets/sheets-background.jpg";
 import authorImage from "@/assets/author-katelyn.jpg";
 import cozyEarthImage from "@/assets/cozy-earth-sheets.png";
+import cozyEarthBedroom from "@/assets/cozy-earth-bedroom.png";
 import oprahBadge from "@/assets/oprah-badge.png";
 import miracleMadeImage from "@/assets/miracle-made-sheets.jpg";
 import sleepgramImage from "@/assets/sleepgram-sheets.png";
@@ -353,7 +354,7 @@ const Index = () => {
                 </div>
                 <div className="relative">
                   <img
-                    src={cozyEarthImage}
+                    src={cozyEarthBedroom}
                     alt="Cozy Earth Bamboo Sheets"
                     className="rounded-lg shadow-lg w-full h-auto"
                   />
