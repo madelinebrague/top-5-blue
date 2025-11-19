@@ -6,6 +6,7 @@ import sheetsBackground from "@/assets/sheets-background.jpg";
 import authorImage from "@/assets/author-katelyn.jpg";
 import cozyEarthImage from "@/assets/cozy-earth-sheets.png";
 import cozyEarthBedroom from "@/assets/cozy-earth-bedroom.png";
+import sleepingPeacefully from "@/assets/sleeping-peacefully.png";
 import oprahBadge from "@/assets/oprah-badge.png";
 import miracleMadeImage from "@/assets/miracle-made-sheets.jpg";
 import sleepgramImage from "@/assets/sleepgram-sheets.png";
@@ -398,7 +399,7 @@ const Index = () => {
                     </p>
                   </div>
                   <div className="flex items-center justify-center">
-                    <img src={oprahBadge} alt="Oprah's Favorite Things" className="w-48 h-auto" />
+                    <img src={sleepingPeacefully} alt="Peaceful Sleep" className="w-full h-auto rounded-lg shadow-md" />
                   </div>
                 </div>
               </div>
