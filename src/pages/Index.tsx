@@ -9,6 +9,7 @@ import oprahBadge from "@/assets/oprah-badge.png";
 import miracleMadeImage from "@/assets/miracle-made-sheets.jpg";
 import sleepgramImage from "@/assets/sleepgram-sheets.png";
 import groundingCoImage from "@/assets/grounding-co-sheets.png";
+import carilohaImage from "@/assets/cariloha-sheets.png";
 import { format } from "date-fns";
 
 const sheets = [
@@ -68,7 +69,7 @@ const sheets = [
     id: 5,
     rank: 5,
     name: "Cariloha Bamboo Bed Sheets",
-    image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=400&h=300&fit=crop",
+    image: carilohaImage,
     description:
       "Sleek bamboo viscose sheets in beautiful earthy colors. The proprietary weave is designed for ultimate softness.",
     features: ["Bamboo Lyocell Fabric", "3 Degrees Cooler Than Cotton", "Sustainable Production Process"],
