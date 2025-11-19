@@ -371,7 +371,7 @@ const Index = () => {
               <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mb-6 md:mb-8">
                 <div className="bg-white/60 backdrop-blur rounded-lg p-4 md:p-6 text-center">
                   <div className="text-3xl md:text-4xl mb-2">🌿</div>
-                  <h3 className="font-semibold text-foreground mb-2 text-sm md:text-base">100% Organic Bamboo</h3>
+                  <h3 className="font-semibold text-foreground mb-2 text-sm md:text-base">100% Organic Bamboo Viscose</h3>
                   <p className="text-xs md:text-sm text-muted-foreground">Sustainably sourced and eco-friendly</p>
                 </div>
                 <div className="bg-white/60 backdrop-blur rounded-lg p-4 md:p-6 text-center">
