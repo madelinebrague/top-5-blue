@@ -126,7 +126,7 @@ const Index = () => {
               />
               <div className="text-left">
                 <div className="font-semibold text-foreground">Katelyn Zowalski</div>
-                <div>{currentDate}</div>
+                <div>{currentDate} • Sponsored</div>
               </div>
             </div>
             <a href="https://www.themattressgal.com/adv/" target="_blank" rel="noopener noreferrer">
