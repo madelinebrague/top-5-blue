@@ -398,8 +398,8 @@ const Index = () => {
                       The result? You fall asleep faster, stay asleep longer, and wake up feeling more refreshed.
                     </p>
                   </div>
-                  <div className="flex items-center justify-center h-full">
-                    <img src={sleepingPeacefully} alt="Peaceful Sleep" className="max-h-full w-auto rounded-lg shadow-md object-contain" />
+                  <div className="flex items-center justify-center">
+                    <img src={sleepingPeacefully} alt="Peaceful Sleep" className="w-3/4 h-auto rounded-lg shadow-md" />
                   </div>
                 </div>
               </div>
