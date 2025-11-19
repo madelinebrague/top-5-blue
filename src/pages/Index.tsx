@@ -107,9 +107,13 @@ const Index = () => {
         <div className="relative max-w-6xl mx-auto text-center">
           {/* White bar behind text */}
           <div className="bg-white py-8 px-4 mb-6 max-w-3xl mx-auto">
-            <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">Best Bed Sheets</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              This site is supported by our readers. We earn a commission through some of our links.
+            <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
+              {" "}
+              5 Best Bed Sheets Of 2025
+            </h2>
+            <p className="text-lg text-muted-foreground text-black max-w-2xl mx-auto">
+              If you invest in anything, sleep should come first. Grab your pajamas and check out our top 5 picks of the
+              year.
             </p>
           </div>
 
