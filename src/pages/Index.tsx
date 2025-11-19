@@ -412,7 +412,7 @@ const Index = () => {
                     size="lg"
                     className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-12 py-6"
                   >
-                    CLAIM YOUR 40% DISCOUNT <ArrowRight className="ml-2 h-6 w-6" />
+                    CLAIM 40% OFF NOW <ArrowRight className="ml-2 h-6 w-6" />
                   </Button>
                 </a>
                 <p className="text-sm text-muted-foreground mt-4">Limited time offer • Free shipping on all orders</p>
