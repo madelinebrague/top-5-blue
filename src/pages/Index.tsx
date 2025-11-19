@@ -420,6 +420,68 @@ const Index = () => {
             </div>
           </div>
         </div>
+
+        {/* Alternative Options Section */}
+        <div className="my-12 md:my-16">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">
+              Not Sure Cozy Earth Is Right for You?
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              We've tested dozens of sheet sets to find the perfect match for every sleeper. Here's who should consider our other top picks:
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-6 md:p-8 border border-border/50">
+              <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">Hot Sleepers on a Budget</h3>
+              <p className="text-foreground mb-4 text-sm md:text-base">
+                If temperature regulation is your top priority but you want to save some money, <strong>Miracle Made Sheets</strong> use NASA-inspired silver-infused fabric that naturally dissipates heat. Plus, they stay fresher longer, requiring less frequent washing.
+              </p>
+              <a href={sheets[1].affiliateLink} target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="w-full md:w-auto">
+                  View Miracle Made <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </a>
+            </div>
+
+            <div className="bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-6 md:p-8 border border-border/50">
+              <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">Luxury Seekers Who Love Sateen</h3>
+              <p className="text-foreground mb-4 text-sm md:text-base">
+                If you prefer a silky-smooth sateen weave over bamboo viscose, <strong>Sleepgram Sheets</strong> deliver that ultra-soft hotel-quality feel at an accessible price point. They're OEKO-TEX certified and 2X softer than traditional cotton.
+              </p>
+              <a href={sheets[2].affiliateLink} target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="w-full md:w-auto">
+                  View Sleepgram <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </a>
+            </div>
+
+            <div className="bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-6 md:p-8 border border-border/50">
+              <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">Wellness-Focused Sleepers</h3>
+              <p className="text-foreground mb-4 text-sm md:text-base">
+                For those interested in grounding therapy and holistic wellness, <strong>Grounding Co. Terra Bed Sheets</strong> are scientifically designed with silver threads to connect you to the earth's natural energy, potentially reducing inflammation and improving sleep quality.
+              </p>
+              <a href={sheets[3].affiliateLink} target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="w-full md:w-auto">
+                  View Grounding Co. <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </a>
+            </div>
+
+            <div className="bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-6 md:p-8 border border-border/50">
+              <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">Eco-Conscious Shoppers</h3>
+              <p className="text-foreground mb-4 text-sm md:text-base">
+                If sustainable production is your main concern, <strong>Cariloha Bamboo Sheets</strong> feature a proprietary weave made from bamboo lyocell with an exceptionally eco-friendly production process. They're also 3 degrees cooler than cotton.
+              </p>
+              <a href={sheets[4].affiliateLink} target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="w-full md:w-auto">
+                  View Cariloha <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
