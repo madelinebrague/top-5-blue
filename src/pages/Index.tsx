@@ -339,8 +339,8 @@ const Index = () => {
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="space-y-6">
                   <p className="text-foreground leading-relaxed">
-                    When Oprah Winfrey puts something on her "Favorite Things" list, people listen. And when she called
-                    Cozy Earth Bamboo Sheets the best sheets she's ever slept on, the internet went wild.
+                    When Oprah Winfrey puts something on her "Favorite Things" list, people listen. And when she fell
+                    for Cozy Earth's bamboo viscose sheets, the internet went wild.
                   </p>
                   <p className="text-foreground leading-relaxed">
                     But here's the thing: the hype is actually justified. These aren't just celebrity-endorsed sheets.
