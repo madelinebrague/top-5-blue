@@ -119,8 +119,8 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center gap-8">
-            <div className="flex items-center gap-3 text-sm text-muted-foreground">
+          <div className="flex flex-col items-center">
+            <div className="flex items-center gap-3 text-sm text-muted-foreground mb-10">
               <img
                 src={authorImage}
                 alt="Katelyn Zowalski"
@@ -131,8 +131,8 @@ const Index = () => {
                 <div>{currentDate}</div>
               </div>
             </div>
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-sm px-6 py-2">
-              BLACK FRIDAY: SAVE 40% <ArrowRight className="ml-2 h-4 w-4" />
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-10 mb-4">
+              BLACK FRIDAY: SAVE 40% <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
         </div>
