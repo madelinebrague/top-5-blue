@@ -235,6 +235,9 @@ const Index = () => {
           </Card>
         ))}
 
+        {/* Separator */}
+        <div className="my-12 border-t border-gray-300"></div>
+
         {/* Duplicate First Card with Banner */}
         <Card className="mb-8 overflow-hidden border-2 hover:shadow-lg transition-shadow">
           <div className="bg-orange-500 text-white text-center py-4 px-6 font-bold text-xl">
