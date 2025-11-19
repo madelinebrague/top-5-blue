@@ -12,11 +12,10 @@ const sheets = [
   {
     id: 1,
     rank: 1,
-    name: "Cozy Earth Bamboo Sheet Set",
+    name: "Cozy Earth Bamboo Sheets",
     badge: "TOP PICK OF 2025",
     image: cozyEarthImage,
-    description:
-      "The goal of Avocado is simple; to make sheets that are non-toxic, with organic materials at an affordable price.",
+    description: "Oprah was right. These sheets helped me sleep better from night 1.",
     features: [
       "OPRAH'S FAVORITE THINGS WINNER",
       "100% Organic Bamboo Viscose",
