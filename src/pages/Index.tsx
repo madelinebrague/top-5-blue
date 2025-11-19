@@ -472,7 +472,7 @@ const Index = () => {
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               We've tested dozens of sheet sets to find the perfect match for every sleeper. Here's who should consider
-              our other top picks:
+              trying our other top picks:
             </p>
           </div>
 
@@ -513,7 +513,7 @@ const Index = () => {
               </h3>
               <p className="text-foreground mb-4 text-sm md:text-base">
                 For those interested in grounding therapy and holistic wellness,{" "}
-                <strong>Grounding Co. Terra Bed Sheets</strong> are scientifically designed with silver threads to
+                <strong>Grounding Co. Terra Bed Sheets</strong> are scientifically designed with grounding technology to
                 connect you to the earth's natural energy, potentially reducing inflammation and improving sleep
                 quality.
               </p>
