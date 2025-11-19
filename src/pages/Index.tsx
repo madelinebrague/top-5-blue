@@ -23,7 +23,7 @@ const sheets = [
       "Breathable & Temperature Regulating",
       "Lifetime Warranty"
     ],
-    rating: 4.6,
+    rating: 4.9,
     positivePercent: 88,
     bbbRating: "B+",
     affiliateLink: "https://example.com/avocado-affiliate"
@@ -57,7 +57,7 @@ const sheets = [
       "100% Long-staple Cotton",
       "OEKO-TEX Certified"
     ],
-    rating: 4.5,
+    rating: 4.6,
     positivePercent: 85,
     bbbRating: "A",
     affiliateLink: "https://example.com/brooklinen-affiliate"
@@ -74,7 +74,7 @@ const sheets = [
       "100% Egyptian Cotton",
       "OEKO-TEX Certified"
     ],
-    rating: 4.7,
+    rating: 4.5,
     positivePercent: 90,
     bbbRating: "A+",
     affiliateLink: "https://example.com/parachute-affiliate"
@@ -91,7 +91,7 @@ const sheets = [
       "Fair Trade Certified",
       "100% Organic Cotton"
     ],
-    rating: 4.6,
+    rating: 4.5,
     positivePercent: 87,
     bbbRating: "A",
     affiliateLink: "https://example.com/bollandbranch-affiliate"
@@ -229,7 +229,7 @@ const Index = () => {
                       <span className="text-sm text-muted-foreground">Overall Rating</span>
                       <div className="flex items-center gap-1">
                         <Star className="h-4 w-4 fill-primary text-primary" />
-                        <span className="font-semibold">{6 - sheet.rank}</span>
+                        <span className="font-semibold">{sheet.rating}</span>
                       </div>
                     </div>
                     <div className="flex items-center gap-2">
