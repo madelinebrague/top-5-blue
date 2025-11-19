@@ -7,7 +7,7 @@ import authorImage from "@/assets/author-katelyn.jpg";
 import cozyEarthImage from "@/assets/cozy-earth-sheets.png";
 import oprahBadge from "@/assets/oprah-badge.png";
 import miracleMadeImage from "@/assets/miracle-made-sheets.jpg";
-import sleepgramImage from "@/assets/sleepgram-sheets.png";
+import groundingCoImage from "@/assets/grounding-co-sheets.png";
 import { format } from "date-fns";
 
 const sheets = [
@@ -49,7 +49,7 @@ const sheets = [
     id: 3,
     rank: 3,
     name: "Sleepgram Sheets",
-    image: sleepgramImage,
+    image: "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=400&h=300&fit=crop",
     description:
       "Brooklinen's signature sheets are crafted from premium long-staple cotton for exceptional softness and durability.",
     features: ["Bamboo Sateen Fabric", "2X Softer Than Cotton", "OEKO-TEX Certified"],
@@ -63,7 +63,7 @@ const sheets = [
     id: 4,
     rank: 4,
     name: "Grounding Co. Terra Bed Sheet",
-    image: "https://images.unsplash.com/photo-1582582621959-48d27397dc69?w=400&h=300&fit=crop",
+    image: groundingCoImage,
     description: "Scientifically designed to reduce inflammation, promote relaxation, and hit your reset button.",
     features: ["95% Organic Cotton, 5% Silver", "Naturally Grounds Energy", "Promotes Regenerative Sleep"],
     rating: 4.5,
