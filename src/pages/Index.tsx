@@ -410,7 +410,7 @@ const Index = () => {
                 <a href="https://www.themattressgal.com/adv/" target="_blank" rel="noopener noreferrer">
                   <Button
                     size="lg"
-                    className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-12 py-6"
+                    className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 md:px-12 py-6"
                   >
                     CLAIM 40% OFF NOW <ArrowRight className="ml-2 h-6 w-6" />
                   </Button>
