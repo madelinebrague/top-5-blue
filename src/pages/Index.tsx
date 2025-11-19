@@ -333,7 +333,7 @@ const Index = () => {
               <div className="text-center mb-8">
                 <Badge className="bg-primary text-primary-foreground mb-4 text-sm px-4 py-2">IN-DEPTH REVIEW</Badge>
                 <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">
-                  Why Oprah Called Cozy Earth Sheets "The Softest Ever"
+                  Why Oprah Called <a href="https://cozyearth.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Cozy Earth</a> Sheets "The Softest Ever"
                 </h2>
                 <p className="text-lg text-muted-foreground">The luxury bedding that's changing how America sleeps</p>
               </div>
@@ -342,7 +342,7 @@ const Index = () => {
                 <div className="space-y-6">
                   <p className="text-foreground leading-relaxed">
                     When Oprah Winfrey puts something on her "Favorite Things" list, people listen. And when she fell
-                    for Cozy Earth's bamboo viscose sheets, the internet went wild.
+                    for <a href="https://cozyearth.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Cozy Earth's</a> bamboo viscose sheets, the internet went wild.
                   </p>
                   <p className="text-foreground leading-relaxed">
                     But here's the thing: the hype is actually justified. These aren't just celebrity-endorsed sheets.
@@ -392,7 +392,7 @@ const Index = () => {
                   <div>
                     <p className="text-foreground mb-4">
                       Bamboo viscose is naturally breathable and moisture-wicking. While cotton sheets trap heat and
-                      moisture, Cozy Earth sheets actively regulate your temperature throughout the night.
+                      moisture, <a href="https://cozyearth.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Cozy Earth</a> sheets actively regulate your temperature throughout the night.
                     </p>
                     <p className="text-foreground">
                       The result? You fall asleep faster, stay asleep longer, and wake up feeling more refreshed.
