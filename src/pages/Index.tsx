@@ -15,19 +15,20 @@ const sheets = [
     name: "Cozy Earth Bamboo Sheet Set",
     badge: "TOP PICK OF 2025",
     image: cozyEarthImage,
-    description: "The goal of Avocado is simple; to make sheets that are non-toxic, with organic materials at an affordable price.",
+    description:
+      "The goal of Avocado is simple; to make sheets that are non-toxic, with organic materials at an affordable price.",
     features: [
-      "600 & 1,000 Thread count",
-      "STANDARD 100 OEKO-TEX® & MADE SAFE®",
-      "Made in USA",
-      "100% Organic Cotton",
+      "OPRAH'S FAVORITE THINGS WINNER",
+      "100% Organic Bamboo Viscose",
+      "Unbelievably Soft",
       "Breathable & Temperature Regulating",
-      "Lifetime Warranty"
+      "Sustainable & Eco-Friendly",
+      "100 Night Trial",
     ],
     rating: 4.9,
     positivePercent: 88,
     bbbRating: "A+",
-    affiliateLink: "https://example.com/avocado-affiliate"
+    affiliateLink: "https://example.com/avocado-affiliate",
   },
   {
     id: 2,
@@ -35,16 +36,13 @@ const sheets = [
     name: "Saatva Organic Sheets",
     badge: "Best Overall",
     image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&h=300&fit=crop",
-    description: "Number one on our list, Saatva's sheets combine comfort with luxury touches, so you really feel like you're getting what you're paying for.",
-    features: [
-      "300-thread count",
-      "Fair Trade Organic Standard GOTS certified",
-      "100% Organic Cotton"
-    ],
+    description:
+      "Number one on our list, Saatva's sheets combine comfort with luxury touches, so you really feel like you're getting what you're paying for.",
+    features: ["300-thread count", "Fair Trade Organic Standard GOTS certified", "100% Organic Cotton"],
     rating: 4.8,
     positivePercent: 92,
     bbbRating: "A+",
-    affiliateLink: "https://example.com/saatva-affiliate"
+    affiliateLink: "https://example.com/saatva-affiliate",
   },
   {
     id: 3,
@@ -52,16 +50,13 @@ const sheets = [
     name: "Brooklinen Luxe Core Sheet Set",
     badge: "Best Value",
     image: "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=400&h=300&fit=crop",
-    description: "Brooklinen's signature sheets are crafted from premium long-staple cotton for exceptional softness and durability.",
-    features: [
-      "480-thread count",
-      "100% Long-staple Cotton",
-      "OEKO-TEX Certified"
-    ],
+    description:
+      "Brooklinen's signature sheets are crafted from premium long-staple cotton for exceptional softness and durability.",
+    features: ["480-thread count", "100% Long-staple Cotton", "OEKO-TEX Certified"],
     rating: 4.6,
     positivePercent: 85,
     bbbRating: "A",
-    affiliateLink: "https://example.com/brooklinen-affiliate"
+    affiliateLink: "https://example.com/brooklinen-affiliate",
   },
   {
     id: 4,
@@ -70,15 +65,11 @@ const sheets = [
     badge: "Best Cooling",
     image: "https://images.unsplash.com/photo-1582582621959-48d27397dc69?w=400&h=300&fit=crop",
     description: "Crisp, breathable percale sheets that get softer with every wash. Perfect for hot sleepers.",
-    features: [
-      "200-thread count percale",
-      "100% Egyptian Cotton",
-      "OEKO-TEX Certified"
-    ],
+    features: ["200-thread count percale", "100% Egyptian Cotton", "OEKO-TEX Certified"],
     rating: 4.5,
     positivePercent: 90,
     bbbRating: "A+",
-    affiliateLink: "https://example.com/parachute-affiliate"
+    affiliateLink: "https://example.com/parachute-affiliate",
   },
   {
     id: 5,
@@ -86,61 +77,54 @@ const sheets = [
     name: "Boll & Branch Signature Hemmed Sheet Set",
     badge: "Best Luxury",
     image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=400&h=300&fit=crop",
-    description: "Ethically produced, Fair Trade Certified sheets made from the finest organic cotton for ultimate luxury.",
-    features: [
-      "300-thread count",
-      "Fair Trade Certified",
-      "100% Organic Cotton"
-    ],
+    description:
+      "Ethically produced, Fair Trade Certified sheets made from the finest organic cotton for ultimate luxury.",
+    features: ["300-thread count", "Fair Trade Certified", "100% Organic Cotton"],
     rating: 4.5,
     positivePercent: 87,
     bbbRating: "B",
-    affiliateLink: "https://example.com/bollandbranch-affiliate"
-  }
+    affiliateLink: "https://example.com/bollandbranch-affiliate",
+  },
 ];
 
 const Index = () => {
-  const currentDate = format(new Date(), 'MMMM yyyy');
-  
+  const currentDate = format(new Date(), "MMMM yyyy");
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="bg-black text-white py-4 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-2xl md:text-3xl font-serif font-bold">
-            The Mattress Gal
-          </h1>
+          <h1 className="text-2xl md:text-3xl font-serif font-bold">The Mattress Gal</h1>
         </div>
       </header>
 
       {/* Hero Section */}
-      <div 
+      <div
         className="relative py-20 px-4 overflow-hidden"
         style={{
           backgroundImage: `url(${sheetsBackground})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         {/* Gradient overlay for text readability */}
         <div className="absolute inset-0 bg-gradient-radial from-white/95 via-white/85 to-white/70"></div>
-        
+
         <div className="relative max-w-6xl mx-auto text-center">
           {/* White bar behind text */}
           <div className="bg-white py-8 px-4 mb-6 max-w-3xl mx-auto">
-            <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
-              Best Bed Sheets
-            </h2>
+            <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">Best Bed Sheets</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               This site is supported by our readers. We earn a commission through some of our links.
             </p>
           </div>
-          
+
           <div className="flex flex-col items-center gap-8">
             <div className="flex items-center gap-3 text-sm text-muted-foreground">
-              <img 
-                src={authorImage} 
-                alt="Katelyn Zowalski" 
+              <img
+                src={authorImage}
+                alt="Katelyn Zowalski"
                 className="w-10 h-10 rounded-full object-cover border-2 border-white shadow-md"
               />
               <div className="text-left">
@@ -171,7 +155,7 @@ const Index = () => {
                       {sheet.badge}
                     </Badge>
                   )}
-                  <a 
+                  <a
                     href={sheet.affiliateLink}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -194,20 +178,16 @@ const Index = () => {
 
                 {/* Right side - Content */}
                 <div className="p-6 md:p-8">
-                  <a 
+                  <a
                     href={sheet.affiliateLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block hover:opacity-80 transition-opacity"
                   >
-                    <h2 className="text-3xl font-serif font-bold text-foreground mb-3">
-                      {sheet.name}
-                    </h2>
+                    <h2 className="text-3xl font-serif font-bold text-foreground mb-3">{sheet.name}</h2>
                   </a>
-                  
-                  <p className="text-foreground mb-6 leading-relaxed">
-                    {sheet.description}
-                  </p>
+
+                  <p className="text-foreground mb-6 leading-relaxed">{sheet.description}</p>
 
                   {/* Features */}
                   <ul className="space-y-2 mb-6">
@@ -224,12 +204,7 @@ const Index = () => {
                   </ul>
 
                   {/* CTA Button */}
-                  <a 
-                    href={sheet.affiliateLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block"
-                  >
+                  <a href={sheet.affiliateLink} target="_blank" rel="noopener noreferrer" className="inline-block">
                     <Button className="w-full md:w-auto mb-6 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
                       SHOP NOW
                     </Button>
