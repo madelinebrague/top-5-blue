@@ -25,7 +25,7 @@ const sheets = [
     ],
     rating: 4.9,
     positivePercent: 88,
-    bbbRating: "B+",
+    bbbRating: "A+",
     affiliateLink: "https://example.com/avocado-affiliate"
   },
   {
@@ -93,7 +93,7 @@ const sheets = [
     ],
     rating: 4.5,
     positivePercent: 87,
-    bbbRating: "A",
+    bbbRating: "B",
     affiliateLink: "https://example.com/bollandbranch-affiliate"
   }
 ];
@@ -232,9 +232,9 @@ const Index = () => {
                         <span className="font-semibold">{sheet.rating}</span>
                       </div>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <Check className="h-4 w-4 text-primary" />
-                      <span className="font-semibold">{sheet.positivePercent}% Positive</span>
+                    <div>
+                      <span className="text-sm text-muted-foreground">BBB Rating: </span>
+                      <span className="font-semibold">{sheet.bbbRating}</span>
                     </div>
                     <div>
                       <span className="text-sm text-muted-foreground">BBB Rating: </span>
