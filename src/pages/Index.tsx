@@ -130,25 +130,26 @@ const Index = () => {
             <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
               Best Bed Sheets
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               This site is supported by our readers. We earn a commission through some of our links.
             </p>
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-8 py-6 h-auto">
-              BLACK FRIDAY: SAVE 40% <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
           </div>
           
-          {/* Author Byline */}
-          <div className="flex items-center justify-center gap-3 text-sm text-muted-foreground">
-            <img 
-              src={authorImage} 
-              alt="Katelyn Zowalski" 
-              className="w-10 h-10 rounded-full object-cover border-2 border-white shadow-md"
-            />
-            <div className="text-left">
-              <div className="font-semibold text-foreground">Katelyn Zowalski</div>
-              <div>{currentDate}</div>
+          <div className="flex flex-col items-center gap-3">
+            <div className="flex items-center gap-3 text-sm text-muted-foreground">
+              <img 
+                src={authorImage} 
+                alt="Katelyn Zowalski" 
+                className="w-10 h-10 rounded-full object-cover border-2 border-white shadow-md"
+              />
+              <div className="text-left">
+                <div className="font-semibold text-foreground">Katelyn Zowalski</div>
+                <div>{currentDate}</div>
+              </div>
             </div>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-sm px-6 py-2">
+              BLACK FRIDAY: SAVE 40% <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
           </div>
         </div>
       </div>
