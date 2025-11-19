@@ -193,7 +193,7 @@ const Index = () => {
                     </h2>
                   </a>
                   
-                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                  <p className="text-foreground mb-6 leading-relaxed">
                     {sheet.description}
                   </p>
 
@@ -206,7 +206,7 @@ const Index = () => {
                         ) : (
                           <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                         )}
-                        <span>{feature}</span>
+                        <span className="text-foreground">{feature}</span>
                       </li>
                     ))}
                   </ul>
