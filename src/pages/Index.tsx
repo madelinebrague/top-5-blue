@@ -7,6 +7,7 @@ import authorImage from "@/assets/author-katelyn.jpg";
 import cozyEarthImage from "@/assets/cozy-earth-sheets.png";
 import oprahBadge from "@/assets/oprah-badge.png";
 import miracleMadeImage from "@/assets/miracle-made-sheets.jpg";
+import sleepgramImage from "@/assets/sleepgram-sheets.png";
 import groundingCoImage from "@/assets/grounding-co-sheets.png";
 import { format } from "date-fns";
 
@@ -49,7 +50,7 @@ const sheets = [
     id: 3,
     rank: 3,
     name: "Sleepgram Sheets",
-    image: "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=400&h=300&fit=crop",
+    image: sleepgramImage,
     description:
       "Brooklinen's signature sheets are crafted from premium long-staple cotton for exceptional softness and durability.",
     features: ["Bamboo Sateen Fabric", "2X Softer Than Cotton", "OEKO-TEX Certified"],
