@@ -415,7 +415,7 @@ const Index = () => {
                     CLAIM 40% OFF NOW <ArrowRight className="ml-2 h-5 md:h-6 w-5 md:w-6" />
                   </Button>
                 </a>
-                <p className="text-xs md:text-sm text-muted-foreground mt-4">Limited time offer • Free shipping on all orders</p>
+                <p className="text-xs md:text-sm text-muted-foreground mt-4">Limited time offer • Free shipping over $100</p>
               </div>
             </div>
           </div>
