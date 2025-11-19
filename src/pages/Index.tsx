@@ -556,10 +556,8 @@ const Index = () => {
                 Sleep Product Specialist & Founder of The Mattress Gal
               </p>
               <p className="text-sm md:text-base text-foreground leading-relaxed">
-                After years of restless nights and testing countless bedding products, I created The Mattress Gal 
-                to help others find their perfect sleep setup. I personally test every product I recommend and only 
-                share what genuinely works. When I'm not researching the latest in sleep technology, you'll find me 
-                enjoying quality rest on my Cozy Earth sheets.
+                Katelyn Zowalski is a writer and mother of 3. She's tested hundreds of different bedding, pajamas 
+                and loungewear over the years. We're lucky to have her on our team and we hope you enjoyed her review.
               </p>
             </div>
           </div>
