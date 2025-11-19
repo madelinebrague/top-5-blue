@@ -222,10 +222,6 @@ const Index = () => {
                         <span className="font-semibold">{sheet.rating}</span>
                       </div>
                     </div>
-                    <div>
-                      <span className="text-sm text-muted-foreground">BBB Rating: </span>
-                      <span className="font-semibold">{sheet.bbbRating}</span>
-                    </div>
                   </div>
                 </div>
               </div>
