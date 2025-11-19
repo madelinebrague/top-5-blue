@@ -333,7 +333,7 @@ const Index = () => {
           <div className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-8 md:p-12">
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-8">
-                <Badge className="bg-primary text-primary-foreground mb-4 text-sm px-4 py-2">FEATURED STORY</Badge>
+                <Badge className="bg-primary text-primary-foreground mb-4 text-sm px-4 py-2">IN-DEPTH REVIEW</Badge>
                 <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">
                   Why Oprah Called These "The Best Sheets Ever"
                 </h2>
