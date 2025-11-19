@@ -234,6 +234,96 @@ const Index = () => {
             </CardContent>
           </Card>
         ))}
+
+        {/* Duplicate First Card with Banner */}
+        <Card className="mb-8 overflow-hidden border-2 hover:shadow-lg transition-shadow">
+          <div className="bg-orange-500 text-white text-center py-4 px-6 font-bold text-xl">
+            BEST SHEETS OF 2025
+          </div>
+          <CardContent className="p-0">
+            <div className="grid md:grid-cols-[300px_1fr] gap-0">
+              {/* Left side - Image and Rank */}
+              <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
+                <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-hero-blue-dark z-10">
+                  1
+                </div>
+                <a
+                  href={sheets[0].affiliateLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute top-4 right-4 z-10"
+                >
+                  <Badge className="bg-primary text-primary-foreground border-0 text-base px-4 py-2 font-bold hover:opacity-90 transition-opacity cursor-pointer">
+                    {sheets[0].badge}
+                  </Badge>
+                </a>
+                <a
+                  href={sheets[0].affiliateLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block flex flex-col items-center gap-4"
+                >
+                  <img
+                    src={oprahBadge}
+                    alt="Oprah's Favorite Things"
+                    className="w-full max-w-[200px] h-auto mt-16 md:mt-8"
+                  />
+                  <img
+                    src={sheets[0].image}
+                    alt={sheets[0].name}
+                    className="w-full max-w-[250px] h-auto rounded-lg shadow-md hover:opacity-90 transition-opacity cursor-pointer"
+                  />
+                </a>
+              </div>
+
+              {/* Right side - Content */}
+              <div className="p-6 md:p-8">
+                <a
+                  href={sheets[0].affiliateLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:opacity-80 transition-opacity"
+                >
+                  <h2 className="text-3xl font-serif font-bold text-foreground mb-3">{sheets[0].name}</h2>
+                </a>
+
+                <p className="text-foreground mb-6 leading-relaxed">{sheets[0].description}</p>
+
+                {/* Features */}
+                <ul className="space-y-2 mb-6">
+                  {sheets[0].features.map((feature, idx) => (
+                    <li key={idx} className="flex items-start gap-2 text-sm">
+                      {idx === 0 ? (
+                        <Award className="h-6 w-6 shrink-0 mt-0.5 text-hero-blue-dark fill-gold drop-shadow-md" />
+                      ) : (
+                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                      )}
+                      <span className="text-foreground">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                {/* CTA Button */}
+                <a href={sheets[0].affiliateLink} target="_blank" rel="noopener noreferrer" className="inline-block">
+                  <Button className="w-full md:w-auto mb-6 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
+                    {sheets[0].ctaText}
+                  </Button>
+                </a>
+
+                {/* Ratings */}
+                <div className="flex flex-wrap gap-6 pt-4 border-t border-border/50">
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm text-muted-foreground">Overall Rating</span>
+                    <div className="flex items-center gap-1">
+                      <Star className="h-4 w-4 fill-primary text-primary" />
+                      <span className="font-semibold">{sheets[0].rating}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
