@@ -538,6 +538,25 @@ const Index = () => {
             </div>
           </div>
         </div>
+
+        {/* Footer */}
+        <footer className="border-t border-border/50 bg-muted/20 py-8 mt-16">
+          <div className="container mx-auto px-4">
+            <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
+              <a href="/advertising-disclosure" className="hover:text-foreground transition-colors">
+                Advertising Disclosure
+              </a>
+              <span className="text-border">|</span>
+              <a href="/terms" className="hover:text-foreground transition-colors">
+                Terms of Use
+              </a>
+              <span className="text-border">|</span>
+              <a href="/privacy" className="hover:text-foreground transition-colors">
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   );
