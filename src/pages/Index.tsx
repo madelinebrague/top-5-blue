@@ -399,7 +399,7 @@ const Index = () => {
                     </p>
                   </div>
                   <div className="flex items-center justify-center">
-                    <img src={sleepingPeacefully} alt="Peaceful Sleep" className="w-full h-auto rounded-lg shadow-md" />
+                    <img src={sleepingPeacefully} alt="Peaceful Sleep" className="w-3/4 h-auto rounded-lg shadow-md" />
                   </div>
                 </div>
               </div>
