@@ -28,6 +28,7 @@ const sheets = [
     positivePercent: 88,
     bbbRating: "A+",
     affiliateLink: "https://www.themattressgal.com/adv/",
+    ctaText: "SHOP NOW",
   },
   {
     id: 2,
@@ -42,6 +43,7 @@ const sheets = [
     positivePercent: 92,
     bbbRating: "A+",
     affiliateLink: "https://example.com/saatva-affiliate",
+    ctaText: "SHOP NOW",
   },
   {
     id: 3,
@@ -56,6 +58,7 @@ const sheets = [
     positivePercent: 85,
     bbbRating: "A",
     affiliateLink: "https://example.com/brooklinen-affiliate",
+    ctaText: "SHOP NOW",
   },
   {
     id: 4,
@@ -69,6 +72,7 @@ const sheets = [
     positivePercent: 90,
     bbbRating: "A+",
     affiliateLink: "https://example.com/parachute-affiliate",
+    ctaText: "SHOP NOW",
   },
   {
     id: 5,
@@ -83,6 +87,7 @@ const sheets = [
     positivePercent: 87,
     bbbRating: "B",
     affiliateLink: "https://example.com/bollandbranch-affiliate",
+    ctaText: "SHOP NOW",
   },
 ];
 
@@ -210,7 +215,7 @@ const Index = () => {
                   {/* CTA Button */}
                   <a href={sheet.affiliateLink} target="_blank" rel="noopener noreferrer" className="inline-block">
                     <Button className="w-full md:w-auto mb-6 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
-                      SHOP NOW
+                      {sheet.ctaText}
                     </Button>
                   </a>
 
