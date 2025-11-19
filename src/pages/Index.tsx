@@ -94,7 +94,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <div
-        className="relative py-20 px-4 overflow-hidden"
+        className="relative pt-20 pb-12 px-4 overflow-hidden"
         style={{
           backgroundImage: `url(${sheetsBackground})`,
           backgroundSize: "cover",
