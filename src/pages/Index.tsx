@@ -6,6 +6,7 @@ import sheetsBackground from "@/assets/sheets-background.jpg";
 import authorImage from "@/assets/author-katelyn.jpg";
 import cozyEarthImage from "@/assets/cozy-earth-sheets.png";
 import oprahBadge from "@/assets/oprah-badge.png";
+import miracleMadeImage from "@/assets/miracle-made-sheets.jpg";
 import { format } from "date-fns";
 
 const sheets = [
@@ -34,7 +35,7 @@ const sheets = [
     id: 2,
     rank: 2,
     name: "Miracle Made Sheets",
-    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&h=300&fit=crop",
+    image: miracleMadeImage,
     description: "NASA-inspired technology makes these sheets super cooling and antibacterial.",
     features: ["100% Silver-Infused Cotton", "Naturally Dissipates Body Heat", "Requires Less Washing"],
     rating: 4.8,
