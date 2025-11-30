@@ -200,37 +200,40 @@ const Index = () => {
 
                   <p className="text-foreground mb-6 leading-relaxed">{sheet.description}</p>
 
-                  {/* Features */}
-                  <ul className="space-y-2 mb-6">
-                    {sheet.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start gap-2 text-sm">
-                        {sheet.rank === 1 && idx === 0 ? (
-                          <Award className="h-6 w-6 shrink-0 mt-0.5 text-hero-blue-dark fill-gold drop-shadow-md" />
-                        ) : (
-                          <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                        )}
-                        <span className="text-foreground">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  {/* Features and Rating Container */}
+                  <div className="md:flex md:gap-8 mb-6">
+                    {/* Features */}
+                    <ul className="space-y-2 mb-6 md:mb-0 md:flex-1">
+                      {sheet.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-start gap-2 text-sm">
+                          {sheet.rank === 1 && idx === 0 ? (
+                            <Award className="h-6 w-6 shrink-0 mt-0.5 text-hero-blue-dark fill-gold drop-shadow-md" />
+                          ) : (
+                            <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                          )}
+                          <span className="text-foreground">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
 
-                  {/* CTA Button */}
-                  <a href={sheet.affiliateLink} target="_blank" rel="noopener noreferrer" className="inline-block">
-                    <Button className="w-full md:w-auto mb-6 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
-                      {sheet.ctaText}
-                    </Button>
-                  </a>
-
-                  {/* Ratings */}
-                  <div className="flex flex-wrap gap-6 pt-4 border-t border-border/50">
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm text-muted-foreground">Overall Rating</span>
-                      <div className="flex items-center gap-1">
-                        <Star className="h-4 w-4 fill-primary text-primary" />
-                        <span className="font-semibold">{sheet.rating}</span>
+                    {/* Ratings - Right side on desktop */}
+                    <div className="flex items-start pt-4 md:pt-0 border-t md:border-t-0 md:border-l border-border/50 md:pl-8">
+                      <div className="flex flex-col gap-2">
+                        <span className="text-sm text-muted-foreground">Overall Rating</span>
+                        <div className="flex items-center gap-1">
+                          <Star className="h-5 w-5 fill-primary text-primary" />
+                          <span className="font-semibold text-lg">{sheet.rating}</span>
+                        </div>
                       </div>
                     </div>
                   </div>
+
+                  {/* CTA Button */}
+                  <a href={sheet.affiliateLink} target="_blank" rel="noopener noreferrer" className="inline-block">
+                    <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
+                      {sheet.ctaText}
+                    </Button>
+                  </a>
                 </div>
               </div>
             </CardContent>
@@ -290,37 +293,40 @@ const Index = () => {
 
                 <p className="text-foreground mb-6 leading-relaxed">{sheets[0].description}</p>
 
-                {/* Features */}
-                <ul className="space-y-2 mb-6">
-                  {sheets[0].features.map((feature, idx) => (
-                    <li key={idx} className="flex items-start gap-2 text-sm">
-                      {idx === 0 ? (
-                        <Award className="h-6 w-6 shrink-0 mt-0.5 text-hero-blue-dark fill-gold drop-shadow-md" />
-                      ) : (
-                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      )}
-                      <span className="text-foreground">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
+                {/* Features and Rating Container */}
+                <div className="md:flex md:gap-8 mb-6">
+                  {/* Features */}
+                  <ul className="space-y-2 mb-6 md:mb-0 md:flex-1">
+                    {sheets[0].features.map((feature, idx) => (
+                      <li key={idx} className="flex items-start gap-2 text-sm">
+                        {idx === 0 ? (
+                          <Award className="h-6 w-6 shrink-0 mt-0.5 text-hero-blue-dark fill-gold drop-shadow-md" />
+                        ) : (
+                          <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                        )}
+                        <span className="text-foreground">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
 
-                {/* CTA Button */}
-                <a href={sheets[0].affiliateLink} target="_blank" rel="noopener noreferrer" className="inline-block">
-                  <Button className="w-full md:w-auto mb-6 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
-                    {sheets[0].ctaText}
-                  </Button>
-                </a>
-
-                {/* Ratings */}
-                <div className="flex flex-wrap gap-6 pt-4 border-t border-border/50">
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm text-muted-foreground">Overall Rating</span>
-                    <div className="flex items-center gap-1">
-                      <Star className="h-4 w-4 fill-primary text-primary" />
-                      <span className="font-semibold">{sheets[0].rating}</span>
+                  {/* Ratings - Right side on desktop */}
+                  <div className="flex items-start pt-4 md:pt-0 border-t md:border-t-0 md:border-l border-border/50 md:pl-8">
+                    <div className="flex flex-col gap-2">
+                      <span className="text-sm text-muted-foreground">Overall Rating</span>
+                      <div className="flex items-center gap-1">
+                        <Star className="h-5 w-5 fill-primary text-primary" />
+                        <span className="font-semibold text-lg">{sheets[0].rating}</span>
+                      </div>
                     </div>
                   </div>
                 </div>
+
+                {/* CTA Button */}
+                <a href={sheets[0].affiliateLink} target="_blank" rel="noopener noreferrer" className="inline-block">
+                  <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
+                    {sheets[0].ctaText}
+                  </Button>
+                </a>
               </div>
             </div>
           </CardContent>
