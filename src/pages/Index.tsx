@@ -218,11 +218,11 @@ const Index = () => {
 
                     {/* Ratings - Right side on desktop */}
                     <div className="flex items-start pt-4 md:pt-0 border-t md:border-t-0 md:border-l border-border/50 md:pl-8">
-                      <div className="flex flex-col gap-2">
-                        <span className="text-sm text-muted-foreground">Overall Rating</span>
-                        <div className="flex items-center gap-1">
-                          <Star className="h-5 w-5 fill-primary text-primary" />
-                          <span className="font-semibold text-lg">{sheet.rating}</span>
+                      <div className="flex flex-col gap-2 md:gap-3">
+                        <span className="text-sm md:text-base font-medium text-muted-foreground">Overall Rating</span>
+                        <div className="flex items-center gap-2">
+                          <Star className="h-5 w-5 md:h-8 md:w-8 fill-primary text-primary" />
+                          <span className="font-bold text-lg md:text-4xl text-foreground">{sheet.rating}</span>
                         </div>
                       </div>
                     </div>
@@ -311,11 +311,11 @@ const Index = () => {
 
                   {/* Ratings - Right side on desktop */}
                   <div className="flex items-start pt-4 md:pt-0 border-t md:border-t-0 md:border-l border-border/50 md:pl-8">
-                    <div className="flex flex-col gap-2">
-                      <span className="text-sm text-muted-foreground">Overall Rating</span>
-                      <div className="flex items-center gap-1">
-                        <Star className="h-5 w-5 fill-primary text-primary" />
-                        <span className="font-semibold text-lg">{sheets[0].rating}</span>
+                    <div className="flex flex-col gap-2 md:gap-3">
+                      <span className="text-sm md:text-base font-medium text-muted-foreground">Overall Rating</span>
+                      <div className="flex items-center gap-2">
+                        <Star className="h-5 w-5 md:h-8 md:w-8 fill-primary text-primary" />
+                        <span className="font-bold text-lg md:text-4xl text-foreground">{sheets[0].rating}</span>
                       </div>
                     </div>
                   </div>
