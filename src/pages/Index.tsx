@@ -133,7 +133,7 @@ const Index = () => {
                 <div>{currentDate} • Sponsored</div>
               </div>
             </div>
-            <a href="https://www.themattressgal.com/adv/" target="_blank" rel="noopener noreferrer">
+            <a href="/adv">
               <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-10 mb-4"
