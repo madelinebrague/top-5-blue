@@ -386,7 +386,7 @@ const Adv = () => {
             (Or Amazon, but they have a limited selection without the 20% discount.)
           </p>
 
-          <img src={oprahFavoriteThings} alt="Oprah's Favorite Things" className="w-full rounded-lg shadow-lg mb-8" />
+          <img src={oprahPajamasCollection} alt="Cozy Earth Pajamas Collection - Oprah's Favorite Things" className="w-full rounded-lg shadow-lg mb-8" />
 
           <a href={COZY_EARTH_LINK} target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold mb-8">
@@ -456,15 +456,6 @@ const Adv = () => {
             </div>
           </div>
         </a>
-
-        {/* Final Image */}
-        <div className="mt-8 rounded-lg overflow-hidden shadow-lg">
-          <img 
-            src={oprahPajamasCollection} 
-            alt="Cozy Earth Pajamas Collection - Oprah's Favorite Things" 
-            className="w-full"
-          />
-        </div>
       </div>
 
       {/* Footer */}
