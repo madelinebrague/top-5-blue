@@ -44,11 +44,10 @@ const Adv = () => {
           showStickyHeader ? "translate-y-0" : "-translate-y-full"
         }`}
       >
-        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
-          <p className="text-sm font-semibold hidden sm:block">Order COZY EARTH on their official website here</p>
+        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-center">
           <a href={COZY_EARTH_LINK} target="_blank" rel="noopener noreferrer">
             <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold whitespace-nowrap">
-              Auto Apply 20% Off &gt;&gt;
+              CYBER MONDAY: GET 40% OFF »
             </Button>
           </a>
         </div>
