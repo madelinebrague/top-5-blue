@@ -78,7 +78,7 @@ const sheets = [
     features: ["Bamboo Lyocell Fabric", "3 Degrees Cooler Than Cotton", "Sustainable Production Process"],
     rating: 4.5,
     affiliateLink: "https://cariloha.pxf.io/VxE6kk",
-    ctaText: "SHOP NOW »",
+    ctaText: "CYBER MONDAY: SAVE 40% »",
   },
 ];
 
