@@ -14,6 +14,7 @@ import womanLying from "@/assets/woman-lying.jpg";
 import oprahFavoriteThings from "@/assets/oprah-favorite-things.jpg";
 import cozyBanner from "@/assets/cozy-banner.jpg";
 import oprahBadge from "@/assets/oprah-badge.png";
+import oprahPajamasCollection from "@/assets/oprah-pajamas-collection.png";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
 
@@ -455,6 +456,15 @@ const Adv = () => {
             </div>
           </div>
         </a>
+
+        {/* Final Image */}
+        <div className="mt-8 rounded-lg overflow-hidden shadow-lg">
+          <img 
+            src={oprahPajamasCollection} 
+            alt="Cozy Earth Pajamas Collection - Oprah's Favorite Things" 
+            className="w-full"
+          />
+        </div>
       </div>
 
       {/* Footer */}
