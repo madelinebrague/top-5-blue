@@ -33,7 +33,7 @@ const sheets = [
     ],
     rating: 4.9,
     affiliateLink: "https://www.themattressgal.com/adv/",
-    ctaText: "BLACK FRIDAY: SAVE 40% »",
+    ctaText: "CYBER MONDAY: SAVE 40% »",
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ const sheets = [
     features: ["100% Silver-Infused Cotton", "Naturally Dissipates Body Heat", "Requires Less Washing"],
     rating: 4.8,
     affiliateLink: "https://www.oobots.com/B68SFRZ/5HLBCX2/?uid=11831&sub1=matgal-t5",
-    ctaText: "BLACK FRIDAY: SAVE 46% »",
+    ctaText: "CYBER MONDAY: SAVE 46% »",
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ const sheets = [
     features: ["Bamboo Sateen Fabric", "2X Softer Than Cotton", "OEKO-TEX Certified"],
     rating: 4.6,
     affiliateLink: "https://www.altoacre.com/B68SFRZ/DPTF16Z/?sub1=matgal-t5",
-    ctaText: "BLACK FRIDAY: SAVE 65% »",
+    ctaText: "CYBER MONDAY: SAVE 65% »",
   },
   {
     id: 4,
@@ -66,7 +66,7 @@ const sheets = [
     features: ["95% Organic Cotton, 5% Silver", "Naturally Grounds Energy", "Promotes Regenerative Sleep"],
     rating: 4.5,
     affiliateLink: "https://www.djpcraze.com/B68SFRZ/GG8R7HJ/?sub1=matgal-t5",
-    ctaText: "BLACK FRIDAY: SAVE 50% »",
+    ctaText: "CYBER MONDAY: SAVE 50% »",
   },
   {
     id: 5,
@@ -136,7 +136,7 @@ const Index = () => {
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-10 mb-4"
               >
-                BLACK FRIDAY: SAVE 40% <ArrowRight className="ml-2 h-5 w-5" />
+                CYBER MONDAY: SAVE 40% <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </a>
           </div>
@@ -449,7 +449,7 @@ const Index = () => {
 
               <div className="text-center">
                 <p className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3 md:mb-4">
-                  Black Friday Exclusive: Save 40%
+                  Cyber Monday Exclusive: Save 40%
                 </p>
                 <p className="text-muted-foreground mb-4 md:mb-6 text-sm md:text-base">
                   Try them risk-free with a 100-night sleep trial
