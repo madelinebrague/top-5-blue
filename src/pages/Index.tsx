@@ -90,7 +90,9 @@ const Index = () => {
       {/* Header */}
       <header className="bg-black text-white py-4 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-2xl md:text-3xl font-serif font-bold">The Mattress Gal</h1>
+          <h1 className="text-2xl md:text-3xl font-serif font-bold">
+            The<em>Sheets</em>Expert
+          </h1>
         </div>
       </header>
 
@@ -562,8 +564,8 @@ const Index = () => {
                 Sleep Product Specialist & Founder of The Mattress Gal
               </p>
               <p className="text-sm md:text-base text-foreground leading-relaxed">
-                Katelyn Zowalski is a writer and mother of 3. She's tested hundreds of different bedding, pajamas 
-                and loungewear over the years. We're lucky to have her on our team and we hope you enjoyed her review.
+                Katelyn Zowalski is a writer and mother of 3. She's tested hundreds of different bedding, pajamas and
+                loungewear over the years. We're lucky to have her on our team and we hope you enjoyed her review.
               </p>
             </div>
           </div>
