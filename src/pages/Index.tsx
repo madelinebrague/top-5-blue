@@ -32,7 +32,7 @@ const sheets = [
       "100 Night Trial",
     ],
     rating: 4.9,
-    affiliateLink: "https://www.themattressgal.com/adv/",
+    affiliateLink: "/adv",
     ctaText: "CYBER MONDAY: SAVE 40% »",
   },
   {
