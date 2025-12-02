@@ -91,7 +91,7 @@ const Index = () => {
       <header className="bg-black text-white py-4 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-2xl md:text-3xl font-serif">
-            The<strong>Sheets</strong>Expert
+            <strong>The</strong>Sheets<strong>Expert</strong>
           </h1>
         </div>
       </header>
