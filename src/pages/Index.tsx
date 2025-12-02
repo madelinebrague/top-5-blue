@@ -43,7 +43,7 @@ const sheets = [
     description: "NASA-inspired technology makes these sheets super cooling and antibacterial.",
     features: ["100% Silver-Infused Cotton", "Naturally Dissipates Body Heat", "Requires Less Washing"],
     rating: 4.8,
-    affiliateLink: "https://www.oobots.com/B68SFRZ/5HLBCX2/?uid=11831&sub1=matgal-t5",
+    affiliateLink: "https://www.oobots.com/B68SFRZ/5HLBCX2/?uid=11831&sub1=sheetex",
     ctaText: "CYBER MONDAY: SAVE 46% »",
   },
   {
@@ -54,7 +54,7 @@ const sheets = [
     description: "Sleepgram's sateen is ultra-soft. These sheets are dreamy bamboo at a budget-friendly price.",
     features: ["Bamboo Sateen Fabric", "2X Softer Than Cotton", "OEKO-TEX Certified"],
     rating: 4.6,
-    affiliateLink: "https://www.altoacre.com/B68SFRZ/DPTF16Z/?sub1=matgal-t5",
+    affiliateLink: "https://www.altoacre.com/B68SFRZ/DPTF16Z/?sub1=sheetex",
     ctaText: "CYBER MONDAY: SAVE 65% »",
   },
   {
@@ -65,7 +65,7 @@ const sheets = [
     description: "Scientifically designed to reduce inflammation, promote relaxation, and hit your reset button.",
     features: ["95% Organic Cotton, 5% Silver", "Naturally Grounds Energy", "Promotes Regenerative Sleep"],
     rating: 4.5,
-    affiliateLink: "https://www.djpcraze.com/B68SFRZ/GG8R7HJ/?sub1=matgal-t5",
+    affiliateLink: "https://www.djpcraze.com/B68SFRZ/GG8R7HJ/?sub1=sheetex",
     ctaText: "CYBER MONDAY: SAVE 50% »",
   },
   {
