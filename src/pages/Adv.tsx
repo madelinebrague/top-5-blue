@@ -1,3 +1,4 @@
+import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Star, Check, ArrowRight } from "lucide-react";
@@ -20,9 +21,39 @@ const COZY_EARTH_LINK = "https://cozyearth.com/?utm_source=traffichaus&utm_mediu
 
 const Adv = () => {
   const currentDate = format(new Date(), "MMMM dd, yyyy");
+  const [showStickyHeader, setShowStickyHeader] = useState(false);
+  const authorBylineRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (authorBylineRef.current) {
+        const bylineRect = authorBylineRef.current.getBoundingClientRect();
+        setShowStickyHeader(bylineRect.bottom < 0);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div className="min-h-screen bg-background">
+      {/* Sticky Header CTA */}
+      <div 
+        className={`fixed top-0 left-0 right-0 z-50 bg-card border-b shadow-lg transition-transform duration-300 ${
+          showStickyHeader ? "translate-y-0" : "-translate-y-full"
+        }`}
+      >
+        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+          <p className="text-sm font-semibold hidden sm:block">Order COZY EARTH on their official website here</p>
+          <a href={COZY_EARTH_LINK} target="_blank" rel="noopener noreferrer">
+            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold whitespace-nowrap">
+              Auto Apply 20% Off &gt;&gt;
+            </Button>
+          </a>
+        </div>
+      </div>
+
       {/* Header */}
       <header className="bg-black text-white py-4 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
@@ -57,7 +88,7 @@ const Adv = () => {
         </a>
 
         {/* Author Info */}
-        <div className="flex items-center gap-3 mt-6 mb-8">
+        <div ref={authorBylineRef} className="flex flex-wrap items-center gap-3 mt-6 mb-8">
           <div className="flex">
             {[1, 2, 3, 4, 5].map((star) => (
               <Star key={star} className="h-5 w-5 fill-gold text-gold" />
@@ -74,8 +105,8 @@ const Adv = () => {
           <Link to="/advertising-disclosure" className="text-primary hover:underline">Sponsored</Link>
         </div>
 
-        {/* Sidebar CTA - Desktop */}
-        <div className="lg:fixed lg:right-8 lg:top-32 lg:w-72 bg-card border rounded-lg shadow-lg p-4 mb-8 lg:mb-0">
+        {/* Sidebar CTA - Desktop (visible before scroll) */}
+        <div className={`lg:fixed lg:right-8 lg:top-32 lg:w-72 bg-card border rounded-lg shadow-lg p-4 mb-8 lg:mb-0 transition-opacity duration-300 ${showStickyHeader ? 'lg:opacity-0 lg:pointer-events-none' : 'lg:opacity-100'}`}>
           <p className="text-sm font-semibold text-center mb-3">Order COZY EARTH on their official website here</p>
           <img src={oprahBadge} alt="Oprah's Favorite Things Badge" className="w-full rounded-lg mb-4" />
           <a href={COZY_EARTH_LINK} target="_blank" rel="noopener noreferrer">
