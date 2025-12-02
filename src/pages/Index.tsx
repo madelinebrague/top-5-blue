@@ -561,11 +561,13 @@ const Index = () => {
             <div className="flex-1 text-center md:text-left">
               <h3 className="text-xl md:text-2xl font-semibold text-foreground mb-2">Katelyn</h3>
               <p className="text-base md:text-lg text-muted-foreground mb-4">
-                Sleep Product Specialist & Founder of The Mattress Gal
+                Sleep Product Specialist & Founder of The Sheets Expert
               </p>
               <p className="text-sm md:text-base text-foreground leading-relaxed">
-                Katelyn Zowalski is a writer and mother of 3. She's tested hundreds of different bedding, pajamas and
-                loungewear over the years. We're lucky to have her on our team and we hope you enjoyed her review.
+                Katelyn Zowalski is the queen of sheets. Between being a mother of 3 and a full-time content creator,
+                she's tested dozens of different bedding brands. She loves finding that one product that makes her house
+                feel like home, whether it's the most incredible sheets or the perfect throw blanket. She'll rave about
+                her latest finds to anyone that will listen, and that includes you!
               </p>
             </div>
           </div>
