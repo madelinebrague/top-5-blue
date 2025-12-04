@@ -33,7 +33,7 @@ const sheets = [
     ],
     rating: 4.9,
     affiliateLink: "/adv",
-    ctaText: "CYBER MONDAY: SAVE 40% »",
+    ctaText: "SHOP NOW: SAVE 20% »",
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ const sheets = [
     features: ["100% Silver-Infused Cotton", "Naturally Dissipates Body Heat", "Requires Less Washing"],
     rating: 4.8,
     affiliateLink: "https://www.oobots.com/B68SFRZ/5HLBCX2/?uid=11831&sub1=sheetex",
-    ctaText: "CYBER MONDAY: SAVE 46% »",
+    ctaText: "SHOP NOW: SAVE 46% »",
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ const sheets = [
     features: ["Bamboo Sateen Fabric", "2X Softer Than Cotton", "OEKO-TEX Certified"],
     rating: 4.6,
     affiliateLink: "https://www.altoacre.com/B68SFRZ/DPTF16Z/?sub1=sheetex",
-    ctaText: "CYBER MONDAY: SAVE 65% »",
+    ctaText: "SHOP NOW: SAVE 65% »",
   },
   {
     id: 4,
@@ -66,7 +66,7 @@ const sheets = [
     features: ["95% Organic Cotton, 5% Silver", "Naturally Grounds Energy", "Promotes Regenerative Sleep"],
     rating: 4.5,
     affiliateLink: "https://www.djpcraze.com/B68SFRZ/GG8R7HJ/?sub1=sheetex",
-    ctaText: "CYBER MONDAY: SAVE 50% »",
+    ctaText: "SHOP NOW: SAVE 50% »",
   },
   {
     id: 5,
@@ -78,7 +78,7 @@ const sheets = [
     features: ["Bamboo Lyocell Fabric", "3 Degrees Cooler Than Cotton", "Sustainable Production Process"],
     rating: 4.5,
     affiliateLink: "https://cariloha.pxf.io/VxE6kk",
-    ctaText: "CYBER MONDAY: SAVE 40% »",
+    ctaText: "SHOP NOW: SAVE 40% »",
   },
 ];
 
