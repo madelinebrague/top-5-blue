@@ -138,7 +138,7 @@ const Index = () => {
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-10 mb-4"
               >
-                CYBER MONDAY: SAVE 40% <ArrowRight className="ml-2 h-5 w-5" />
+                SAVE 20% ON OUR TOP PICK <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </a>
           </div>
@@ -451,7 +451,7 @@ const Index = () => {
 
               <div className="text-center">
                 <p className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3 md:mb-4">
-                  Cyber Monday Exclusive: Save 40%
+                  SAVE 20% ON COZY EARTH
                 </p>
                 <p className="text-muted-foreground mb-4 md:mb-6 text-sm md:text-base">
                   Try them risk-free with a 100-night sleep trial
