@@ -461,7 +461,7 @@ const Index = () => {
                     size="lg"
                     className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base md:text-lg px-8 md:px-12 py-6"
                   >
-                    CLAIM 40% OFF NOW <ArrowRight className="ml-2 h-5 md:h-6 w-5 md:w-6" />
+                    CLAIM 20% OFF NOW <ArrowRight className="ml-2 h-5 md:h-6 w-5 md:w-6" />
                   </Button>
                 </a>
                 <p className="text-xs md:text-sm text-muted-foreground mt-4">
