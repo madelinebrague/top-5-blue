@@ -49,7 +49,7 @@ const Adv = () => {
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-center">
           <a href={COZY_EARTH_LINK} target="_blank" rel="noopener noreferrer">
             <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold whitespace-nowrap">
-              CYBER MONDAY: GET 40% OFF »
+              GET 20% OFF COZY EARTH »
             </Button>
           </a>
         </div>
@@ -87,7 +87,7 @@ const Adv = () => {
           rel="noopener noreferrer"
           className="text-primary hover:underline font-semibold text-lg"
         >
-          Cyber Monday: Get 40% Off
+          Get 20% Off Cozy Earth
         </a>
 
         {/* Author Info */}
@@ -122,7 +122,7 @@ const Adv = () => {
           <img src={oprahBadge} alt="Oprah's Favorite Things Badge" className="w-full rounded-lg mb-4" />
           <a href={COZY_EARTH_LINK} target="_blank" rel="noopener noreferrer">
             <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
-              Auto Apply 40% Off &gt;&gt;
+              Auto Apply 20% Off &gt;&gt;
             </Button>
           </a>
         </div>
@@ -347,7 +347,7 @@ const Adv = () => {
 
           <a href={COZY_EARTH_LINK} target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold mb-8">
-              Save up to 40% on Cozy Earth <ArrowRight className="ml-2 h-5 w-5" />
+              Save up to 20% on Cozy Earth <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </a>
 
@@ -386,11 +386,15 @@ const Adv = () => {
             (Or Amazon, but they have a limited selection without the 20% discount.)
           </p>
 
-          <img src={oprahPajamasCollection} alt="Cozy Earth Pajamas Collection - Oprah's Favorite Things" className="w-full rounded-lg shadow-lg mb-8" />
+          <img
+            src={oprahPajamasCollection}
+            alt="Cozy Earth Pajamas Collection - Oprah's Favorite Things"
+            className="w-full rounded-lg shadow-lg mb-8"
+          />
 
           <a href={COZY_EARTH_LINK} target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold mb-8">
-              Save up to 40% on Cozy Earth <ArrowRight className="ml-2 h-5 w-5" />
+              Save up to 20% on Cozy Earth <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </a>
         </article>
