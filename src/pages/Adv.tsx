@@ -109,7 +109,7 @@ const Adv = () => {
           <span className="text-muted-foreground">
             in <strong>Lifestyle</strong>
           </span>
-          <Link to="/advertising-disclosure" className="text-primary hover:underline">
+          <Link to="/advertising-disclosure" className="text-primary underline hover:no-underline">
             Sponsored
           </Link>
         </div>
