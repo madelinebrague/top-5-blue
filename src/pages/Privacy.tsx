@@ -380,10 +380,6 @@ const Privacy = () => {
           <p className="mb-4">
             Users who choose to leave comments or provide written reviews on our website should understand that the text of those comments along with their username or alias (as entered by the user) and URL (if provided) is made publicly available online. E-mail address and IP address are not publicly available and are used for moderation purposes only, but we may contact you via the e-mail you've provided in direct response to submitted comments or reviews.
           </p>
-
-          <p className="text-sm text-muted-foreground mt-8">
-            Last updated: {new Date().toLocaleDateString()}
-          </p>
         </div>
       </div>
     </div>
