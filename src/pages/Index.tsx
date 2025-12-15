@@ -288,6 +288,9 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
+                <p className="text-muted-foreground mt-6 text-center max-w-2xl mx-auto">
+                  You know that involuntary sigh you make when you feel something super soft? Cozy Earth makes me do it every night. Their 100% bamboo viscose fabric seriously helped me sleep better from night 1. But the best..
+                </p>
               </div>
             )}
           </>
