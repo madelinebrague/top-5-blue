@@ -250,36 +250,42 @@ const Index = () => {
                 <h3 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-6 text-center">
                   Why Cozy Earth Is Our Top Pick
                 </h3>
-                <div className="grid md:grid-cols-[1fr_280px] gap-6 items-center">
-                  <div className="grid gap-4">
-                    <div className="bg-white/80 backdrop-blur rounded-lg p-5 text-center">
-                      <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Award className="h-6 w-6 text-primary" />
-                      </div>
-                      <h4 className="font-semibold text-foreground mb-2">Oprah Approved</h4>
-                      <p className="text-sm text-muted-foreground">Featured on Oprah's Favorite Things list multiple years in a row.</p>
-                    </div>
-                    <div className="bg-white/80 backdrop-blur rounded-lg p-5 text-center">
-                      <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Star className="h-6 w-6 text-primary" />
-                      </div>
-                      <h4 className="font-semibold text-foreground mb-2">Premium Quality</h4>
-                      <p className="text-sm text-muted-foreground">100% organic bamboo viscose that's softer than any cotton sheet.</p>
-                    </div>
-                    <div className="bg-white/80 backdrop-blur rounded-lg p-5 text-center">
-                      <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Check className="h-6 w-6 text-primary" />
-                      </div>
-                      <h4 className="font-semibold text-foreground mb-2">100-Night Trial</h4>
-                      <p className="text-sm text-muted-foreground">Risk-free trial period with hassle-free returns if you're not satisfied.</p>
-                    </div>
-                  </div>
-                  <div className="hidden md:block">
+                <div className="grid md:grid-cols-[320px_1fr] gap-8 items-center">
+                  <div className="order-2 md:order-1">
                     <img 
                       src={cozyEarthModel} 
                       alt="Woman relaxing in Cozy Earth sheets" 
                       className="w-full h-auto rounded-xl shadow-lg object-cover"
                     />
+                  </div>
+                  <div className="order-1 md:order-2 space-y-5">
+                    <div className="flex items-start gap-4">
+                      <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                        <Award className="h-5 w-5 text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-1">Oprah Approved</h4>
+                        <p className="text-sm text-muted-foreground">Featured on Oprah's Favorite Things list multiple years in a row.</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-4">
+                      <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                        <Star className="h-5 w-5 text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-1">Premium Quality</h4>
+                        <p className="text-sm text-muted-foreground">100% organic bamboo viscose that's softer than any cotton sheet.</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-4">
+                      <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                        <Check className="h-5 w-5 text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-1">100-Night Trial</h4>
+                        <p className="text-sm text-muted-foreground">Risk-free trial period with hassle-free returns if you're not satisfied.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
