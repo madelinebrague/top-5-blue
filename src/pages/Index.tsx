@@ -13,6 +13,7 @@ import miracleMadeImage from "@/assets/miracle-made-sheets.jpg";
 import sleepgramImage from "@/assets/sleepgram-sheets.png";
 import groundingCoImage from "@/assets/grounding-co-sheets.png";
 import carilohaImage from "@/assets/cariloha-sheets.png";
+import cozyEarthModel from "@/assets/cozy-earth-model.png";
 import { format } from "date-fns";
 
 const sheets = [
@@ -245,31 +246,40 @@ const Index = () => {
 
             {/* Why Cozy Earth Section - After First Product */}
             {index === 0 && (
-              <div className="mb-8 bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 md:p-10">
+              <div className="mb-8 max-w-4xl mx-auto bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 md:p-10 overflow-hidden">
                 <h3 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-6 text-center">
                   Why Cozy Earth Is Our Top Pick
                 </h3>
-                <div className="grid md:grid-cols-3 gap-6">
-                  <div className="bg-white/80 backdrop-blur rounded-lg p-5 text-center">
-                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Award className="h-6 w-6 text-primary" />
+                <div className="grid md:grid-cols-[1fr_280px] gap-6 items-center">
+                  <div className="grid gap-4">
+                    <div className="bg-white/80 backdrop-blur rounded-lg p-5 text-center">
+                      <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Award className="h-6 w-6 text-primary" />
+                      </div>
+                      <h4 className="font-semibold text-foreground mb-2">Oprah Approved</h4>
+                      <p className="text-sm text-muted-foreground">Featured on Oprah's Favorite Things list multiple years in a row.</p>
                     </div>
-                    <h4 className="font-semibold text-foreground mb-2">Oprah Approved</h4>
-                    <p className="text-sm text-muted-foreground">Featured on Oprah's Favorite Things list multiple years in a row.</p>
+                    <div className="bg-white/80 backdrop-blur rounded-lg p-5 text-center">
+                      <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Star className="h-6 w-6 text-primary" />
+                      </div>
+                      <h4 className="font-semibold text-foreground mb-2">Premium Quality</h4>
+                      <p className="text-sm text-muted-foreground">100% organic bamboo viscose that's softer than any cotton sheet.</p>
+                    </div>
+                    <div className="bg-white/80 backdrop-blur rounded-lg p-5 text-center">
+                      <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Check className="h-6 w-6 text-primary" />
+                      </div>
+                      <h4 className="font-semibold text-foreground mb-2">100-Night Trial</h4>
+                      <p className="text-sm text-muted-foreground">Risk-free trial period with hassle-free returns if you're not satisfied.</p>
+                    </div>
                   </div>
-                  <div className="bg-white/80 backdrop-blur rounded-lg p-5 text-center">
-                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Star className="h-6 w-6 text-primary" />
-                    </div>
-                    <h4 className="font-semibold text-foreground mb-2">Premium Quality</h4>
-                    <p className="text-sm text-muted-foreground">100% organic bamboo viscose that's softer than any cotton sheet.</p>
-                  </div>
-                  <div className="bg-white/80 backdrop-blur rounded-lg p-5 text-center">
-                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Check className="h-6 w-6 text-primary" />
-                    </div>
-                    <h4 className="font-semibold text-foreground mb-2">100-Night Trial</h4>
-                    <p className="text-sm text-muted-foreground">Risk-free trial period with hassle-free returns if you're not satisfied.</p>
+                  <div className="hidden md:block">
+                    <img 
+                      src={cozyEarthModel} 
+                      alt="Woman relaxing in Cozy Earth sheets" 
+                      className="w-full h-auto rounded-xl shadow-lg object-cover"
+                    />
                   </div>
                 </div>
               </div>
