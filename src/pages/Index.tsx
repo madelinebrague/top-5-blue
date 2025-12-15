@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -130,7 +131,7 @@ const Index = () => {
               />
               <div className="text-left">
                 <div className="font-semibold text-foreground">Katelyn Zowalski</div>
-                <div>{currentDate} • Sponsored</div>
+                <div>{currentDate} • <Link to="/advertising-disclosure" className="text-primary font-semibold underline hover:no-underline">Sponsored</Link></div>
               </div>
             </div>
             <a href="/adv">
