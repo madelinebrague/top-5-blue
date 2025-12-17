@@ -40,17 +40,6 @@ const sheets = [
   {
     id: 2,
     rank: 2,
-    name: "Miracle Made Sheets",
-    image: miracleMadeImage,
-    description: "NASA-inspired technology makes these sheets super cooling and antibacterial.",
-    features: ["100% Silver-Infused Cotton", "Naturally Dissipates Body Heat", "Requires Less Washing"],
-    rating: 4.8,
-    affiliateLink: "https://www.oobots.com/B68SFRZ/5HLBCX2/?uid=11831&sub1=sheetex",
-    ctaText: "SHOP NOW: SAVE 46% »",
-  },
-  {
-    id: 3,
-    rank: 3,
     name: "Sleepgram Sheets",
     image: sleepgramImage,
     description: "Sleepgram's sateen is ultra-soft. These sheets are dreamy bamboo at a budget-friendly price.",
@@ -60,19 +49,8 @@ const sheets = [
     ctaText: "SHOP NOW: SAVE 65% »",
   },
   {
-    id: 4,
-    rank: 4,
-    name: "Grounding Co. Terra Bed Sheet",
-    image: groundingCoImage,
-    description: "Scientifically designed to reduce inflammation, promote relaxation, and hit your reset button.",
-    features: ["95% Organic Cotton, 5% Silver", "Naturally Grounds Energy", "Promotes Regenerative Sleep"],
-    rating: 4.5,
-    affiliateLink: "https://www.djpcraze.com/B68SFRZ/GG8R7HJ/?sub1=sheetex",
-    ctaText: "SHOP NOW: SAVE 50% »",
-  },
-  {
-    id: 5,
-    rank: 5,
+    id: 3,
+    rank: 3,
     name: "Cariloha Bamboo Bed Sheets",
     image: carilohaImage,
     description:
@@ -81,6 +59,30 @@ const sheets = [
     rating: 4.5,
     affiliateLink: "https://cariloha.pxf.io/VxE6kk",
     ctaText: "SHOP NOW: SAVE 40% »",
+  },
+  {
+    id: 4,
+    rank: 4,
+    name: "Miracle Made Sheets",
+    image: miracleMadeImage,
+    description: "NASA-inspired technology makes these sheets super cooling and antibacterial.",
+    features: ["100% Silver-Infused Cotton", "Naturally Dissipates Body Heat", "Requires Less Washing"],
+    rating: 4.8,
+    affiliateLink: "https://www.oobots.com/B68SFRZ/5HLBCX2/?uid=11831&sub1=sheetex",
+    ctaText: "SHOP NOW: SAVE 46% »",
+  },
+  {
+    id: 5,
+    rank: 5
+    2
+    ,
+    name: "Grounding Co. Terra Bed Sheet",
+    image: groundingCoImage,
+    description: "Scientifically designed to reduce inflammation, promote relaxation, and hit your reset button.",
+    features: ["95% Organic Cotton, 5% Silver", "Naturally Grounds Energy", "Promotes Regenerative Sleep"],
+    rating: 4.5,
+    affiliateLink: "https://www.djpcraze.com/B68SFRZ/GG8R7HJ/?sub1=sheetex",
+    ctaText: "SHOP NOW: SAVE 50% »",
   },
 ];
 
