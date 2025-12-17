@@ -132,7 +132,15 @@ const Index = () => {
               />
               <div className="text-left">
                 <div className="font-semibold text-foreground">Katelyn Zowalski</div>
-                <div>{currentDate} • <Link to="/advertising-disclosure" className="text-primary font-semibold underline hover:no-underline">Sponsored</Link></div>
+                <div>
+                  {currentDate} •{" "}
+                  <Link
+                    to="/advertising-disclosure"
+                    className="text-primary font-semibold underline hover:no-underline"
+                  >
+                    Sponsored
+                  </Link>
+                </div>
               </div>
             </div>
             <a href="/adv">
@@ -252,9 +260,9 @@ const Index = () => {
                 </h3>
                 <div className="grid md:grid-cols-[320px_1fr] gap-8 items-center">
                   <div className="order-2 md:order-1">
-                    <img 
-                      src={cozyEarthModel} 
-                      alt="Woman relaxing in Cozy Earth sheets" 
+                    <img
+                      src={cozyEarthModel}
+                      alt="Woman relaxing in Cozy Earth sheets"
                       className="w-full h-auto rounded-xl shadow-lg object-cover"
                     />
                   </div>
@@ -265,7 +273,9 @@ const Index = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-foreground mb-1">Oprah Approved</h4>
-                        <p className="text-sm text-muted-foreground">Featured on Oprah's Favorite Things list multiple years in a row.</p>
+                        <p className="text-sm text-muted-foreground">
+                          Featured on Oprah's Favorite Things list multiple years in a row.
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -274,7 +284,9 @@ const Index = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-foreground mb-1">Premium Quality</h4>
-                        <p className="text-sm text-muted-foreground">100% organic bamboo viscose that's softer than any cotton sheet.</p>
+                        <p className="text-sm text-muted-foreground">
+                          100% organic bamboo viscose that's softer and degrees cooler than cotton.
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -283,13 +295,20 @@ const Index = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-foreground mb-1">100-Night Trial</h4>
-                        <p className="text-sm text-muted-foreground">Risk-free trial period with hassle-free returns if you're not satisfied.</p>
+                        <p className="text-sm text-muted-foreground">
+                          Risk-free trial period with hassle-free returns if you're not satisfied.
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <p className="text-muted-foreground mt-6 text-right">
-                  You know that involuntary sigh you make when you feel something super soft? Cozy Earth makes me do it every night. Their 100% bamboo viscose fabric seriously helped me sleep better from night 1. But the best.. <a href="/adv" className="text-primary font-semibold hover:underline">Read More</a>
+                  You know that involuntary sigh you make when you feel something super soft? Cozy Earth makes me do it
+                  every night. Their 100% bamboo viscose fabric seriously helped me sleep better from night 1. But the
+                  best..{" "}
+                  <a href="/adv" className="text-primary font-semibold hover:underline">
+                    Read More
+                  </a>
                 </p>
               </div>
             )}
