@@ -73,9 +73,7 @@ const sheets = [
   },
   {
     id: 5,
-    rank: 5
-    2
-    ,
+    rank: 5,
     name: "Grounding Co. Terra Bed Sheet",
     image: groundingCoImage,
     description: "Scientifically designed to reduce inflammation, promote relaxation, and hit your reset button.",
