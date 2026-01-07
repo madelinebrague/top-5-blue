@@ -21,7 +21,7 @@ const sheets = [
     id: 1,
     rank: 1,
     name: "Cozy Earth Bamboo Sheets",
-    badge: "TOP PICK OF 2025",
+    badge: "TOP PICK OF 2026",
     image: cozyEarthImage,
     description:
       "Oprah was right. Cozy Earth sheets are impossibly smooth, temperature-regulating, and helped me sleep better from night 1.",
@@ -115,7 +115,7 @@ const Bamboo = () => {
           <div className="bg-white py-8 px-4 mb-6 max-w-3xl mx-auto">
             <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
               {" "}
-              Best Bamboo Sheets Of 2025
+              Best Bamboo Sheets Of 2026
             </h2>
             <p className="text-lg text-muted-foreground text-black max-w-2xl mx-auto">
               Discover the softest, most breathable bamboo sheets that will transform your sleep experience.
@@ -319,7 +319,7 @@ const Bamboo = () => {
 
         {/* Duplicate First Card with Banner */}
         <Card className="mb-8 overflow-hidden border-2 hover:shadow-lg transition-shadow">
-          <div className="bg-orange-500 text-white text-center py-4 px-6 font-bold text-xl">BEST BAMBOO SHEETS OF 2025</div>
+          <div className="bg-orange-500 text-white text-center py-4 px-6 font-bold text-xl">BEST BAMBOO SHEETS OF 2026</div>
           <CardContent className="p-0">
             <div className="grid md:grid-cols-[300px_1fr] gap-0">
               {/* Left side - Image and Rank */}
