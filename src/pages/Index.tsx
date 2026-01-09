@@ -24,7 +24,7 @@ const sheets = [
     badge: "TOP PICK OF 2026",
     image: cozyEarthImage,
     description:
-      "Oprah was right. Cozy Earth sheets are impossibly smooth, temperature-regulating, and helped me sleep better from night 1.",
+      "Oprah was right. Cozy Earth sheets are impossibly smooth, temperature-regulating, and helped me sleep better from night one.",
     features: [
       "OPRAH'S FAVORITE THINGS WINNER",
       "100% Organic Bamboo Viscose",
