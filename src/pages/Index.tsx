@@ -148,7 +148,7 @@ const Index = () => {
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-10 mb-4"
               >
-                SAVE 35% ON OUR TOP PICK <ArrowRight className="ml-2 h-5 w-5" />
+                SAVE 20% ON OUR TOP PICK <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </a>
           </div>
