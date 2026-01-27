@@ -35,7 +35,7 @@ const sheets = [
     ],
     rating: 4.9,
     affiliateLink: "/adv",
-    ctaText: "SHOP NOW: SAVE 35% »",
+    ctaText: "SHOP NOW: SAVE 20% »",
   },
   {
     id: 2,
