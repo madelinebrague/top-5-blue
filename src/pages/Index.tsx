@@ -89,7 +89,8 @@ const moreSleepProducts: ProductCardProps[] = [
       author: "Jennifer M.",
       rating: 5,
     },
-    {
+  },
+  {
     rank: 4,
     name: "Miracle Cooling Comforter",
     image: blissyPillowcase,
