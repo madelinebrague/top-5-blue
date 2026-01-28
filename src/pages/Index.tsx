@@ -53,8 +53,8 @@ const moreSleepProducts: ProductCardProps[] = [
       "https://myhealiq.com/sleepshield/inter?uidab=92&oid=43&affid=1&unit=1&uid=3167&oidab2=867&affidab2=108&sub1=sheetex",
     ctaText: "GET 50% OFF »",
     customerReview: {
-      text: "My husband stopped snoring after just one night! We both sleep so much better now. Game changer for our marriage!",
-      author: "Jennifer K.",
+      text: "This tape stays put all night and comes off without hurting my skin. Love it!",
+      author: "Sarah W.",
       rating: 5,
     },
   },
