@@ -33,6 +33,7 @@ const moreSleepProducts: ProductCardProps[] = [
     rating: 4.8,
     affiliateLink: "https://www.altoacre.com/B68SFRZ/FZ963ZB/?uid=42181&sub1=sheetex",
     ctaText: "SHOP PILLOWS »",
+    highlightFirstFeature: true,
   },
   {
     rank: 2,
