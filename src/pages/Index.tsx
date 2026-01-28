@@ -16,6 +16,7 @@ import carilohaImage from "@/assets/cariloha-sheets.png";
 import cozyEarthModel from "@/assets/cozy-earth-model.png";
 import fluffcoZenPillow from "@/assets/fluffco-zen-pillow.png";
 import sleepProduct2 from "@/assets/sleep-product-2.png";
+import dodowDevice from "@/assets/dodow-device.jpg";
 import { format } from "date-fns";
 import ProductCard, { ProductCardProps } from "@/components/ProductCard";
 import StickyCta from "@/components/StickyCta";
@@ -53,7 +54,7 @@ const moreSleepProducts: ProductCardProps[] = [
   {
     rank: 3,
     name: "Dodow Anti-Insomnia Device",
-    image: sleepProduct2,
+    image: dodowDevice,
     description:
       "This is the ultimate sleep hack for insomniacs. Dodow helps you fall asleep fast, drug-free. It's a small device that projects a soothing light pattern scientifically designed to help you doze off in as little as 8 minutes.",
     features: ["No Side Effects", "Fast, Deep SLeep", "Retrain Your Sleep Habits"],
