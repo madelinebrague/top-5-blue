@@ -24,17 +24,14 @@ import ProductCard, { ProductCardProps } from "@/components/ProductCard";
 const moreSleepProducts: ProductCardProps[] = [
   {
     rank: 1,
-    name: "Cozy Earth Silk Pillows",
-    badge: "BEST PILLOW",
+    name: "FluffCo Zen Pillow",
+    badge: "OPRAH'S SLEEP AWARDS WINNER",
     image: sleepingPeacefully,
-    description: "The perfect complement to your bamboo sheets. Ultra-plush fill with a silky-smooth bamboo cover for cloud-like comfort.",
-    features: [
-      "100% Bamboo Viscose Cover",
-      "Adjustable Fill",
-      "Hypoallergenic",
-    ],
+    description:
+      "Elevate your bed with another Oprah fave. The FluffCo Zen Pillow is the same exact pillow you'll find at 5-star hotels, without the markup.",
+    features: ["Luxury Hotel Feel", "Perfectly Plush Neck Support", "Hypoallergenic"],
     rating: 4.8,
-    affiliateLink: "/adv",
+    affiliateLink: "https://www.altoacre.com/B68SFRZ/FZ963ZB/?uid=42181&sub1=sheetex",
     ctaText: "SHOP PILLOWS »",
   },
   {
@@ -42,12 +39,9 @@ const moreSleepProducts: ProductCardProps[] = [
     name: "Cozy Earth Bamboo Comforter",
     badge: "TOP RATED",
     image: cozyEarthBedroom,
-    description: "Year-round comfort with temperature-regulating bamboo fill. Light, breathable, and incredibly cozy for the perfect night's sleep.",
-    features: [
-      "All-Season Weight",
-      "Hypoallergenic Fill",
-      "Temperature Regulating",
-    ],
+    description:
+      "Year-round comfort with temperature-regulating bamboo fill. Light, breathable, and incredibly cozy for the perfect night's sleep.",
+    features: ["All-Season Weight", "Hypoallergenic Fill", "Temperature Regulating"],
     rating: 4.9,
     affiliateLink: "/adv",
     ctaText: "SHOP COMFORTERS »",
