@@ -14,7 +14,7 @@ import sleepgramImage from "@/assets/sleepgram-sheets.png";
 import groundingCoImage from "@/assets/grounding-co-sheets.png";
 import carilohaImage from "@/assets/cariloha-sheets.png";
 import cozyEarthModel from "@/assets/cozy-earth-model.png";
-import fluffcoZenPillow from "@/assets/fluffco-zen-pillow.png";
+import fluffcoPillow from "@/assets/fluffco-pillow.png";
 import sleepProduct2 from "@/assets/sleep-product-2.png";
 import dodowDevice from "@/assets/dodow-device.jpg";
 import blissyPillowcase from "@/assets/blissy-pillowcase.jpg";
@@ -27,7 +27,7 @@ const moreSleepProducts: ProductCardProps[] = [
     rank: 1,
     name: "FluffCo Zen Pillow",
     badge: "TOP RATED PILLOW",
-    image: fluffcoZenPillow,
+    image: fluffcoPillow,
     description:
       "Elevate your bed with another Oprah fave. The FluffCo Zen Pillow is the same exact pillow you'll find at 5-star hotels, without the markup.",
     features: ["OPRAH'S SLEEP AWARDS WINNER", "Luxury Hotel Feel", "Perfectly Plush Neck Support", "Hypoallergenic"],
