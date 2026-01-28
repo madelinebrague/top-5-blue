@@ -153,7 +153,7 @@ const ProductCard = ({
               <div className="md:hidden mb-6">
                 <Collapsible open={isReviewOpen} onOpenChange={setIsReviewOpen}>
                   <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted/50 rounded-lg px-4 py-3 text-sm font-medium text-foreground hover:bg-muted/70 transition-colors">
-                    <span>Read Customer Review</span>
+                    <span>Read Real Customer Review</span>
                     <ChevronDown className={`h-4 w-4 transition-transform ${isReviewOpen ? 'rotate-180' : ''}`} />
                   </CollapsibleTrigger>
                   <CollapsibleContent className="pt-3">
@@ -175,7 +175,7 @@ const ProductCard = ({
           {customerReview && (
             <div className="hidden md:flex flex-col justify-center p-6 border-l border-border/50 bg-muted/10">
               <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3">
-                Customer Review
+                Real Customer Review
               </h3>
               <ReviewContent />
             </div>
