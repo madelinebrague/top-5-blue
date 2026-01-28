@@ -138,6 +138,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      {/* Affiliate Disclaimer */}
+      <div className="bg-white text-foreground py-2 px-4 md:px-8 text-center">
+        <p className="text-sm italic max-w-4xl mx-auto">
+          Affiliate disclaimer: we hold ourselves to the highest standards of editorial integrity. We may receive commission on some or all of the products on our site. Please research the products best for you!
+        </p>
+      </div>
+
       {/* Header */}
       <header className="bg-black text-white py-4 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
