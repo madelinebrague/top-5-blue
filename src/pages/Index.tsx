@@ -632,7 +632,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="space-y-8">
           {/* Pillows Card */}
           <Card className="overflow-hidden border-2 hover:shadow-lg transition-shadow">
             <CardContent className="p-0">
