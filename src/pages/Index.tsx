@@ -621,6 +621,108 @@ const Index = () => {
           </div>
         </div>
 
+        {/* More Top Sleep Products Section */}
+        <div className="my-12 md:my-16">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">
+              More Top Sleep Products
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              Explore our other highly-rated bedding recommendations to complete your sleep sanctuary.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Pillows Card */}
+            <Card className="overflow-hidden border-2 hover:shadow-lg transition-shadow">
+              <CardContent className="p-0">
+                <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
+                  <div className="absolute top-4 left-4 text-5xl font-serif font-bold text-hero-blue-dark z-10">
+                    1
+                  </div>
+                  <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground border-0 text-sm px-3 py-1 font-bold">
+                    BEST PILLOW
+                  </Badge>
+                  <img
+                    src={sleepingPeacefully}
+                    alt="Premium Pillows"
+                    className="w-full max-w-[200px] h-auto rounded-lg shadow-md mt-8"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-serif font-bold text-foreground mb-2">Cozy Earth Silk Pillows</h3>
+                  <p className="text-foreground mb-4 text-sm">
+                    The perfect complement to your bamboo sheets. Ultra-plush fill with a silky-smooth bamboo cover.
+                  </p>
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-center gap-2 text-sm">
+                      <Check className="h-4 w-4 text-primary" />
+                      <span>100% Bamboo Viscose Cover</span>
+                    </li>
+                    <li className="flex items-center gap-2 text-sm">
+                      <Check className="h-4 w-4 text-primary" />
+                      <span>Adjustable Fill</span>
+                    </li>
+                  </ul>
+                  <div className="flex items-center gap-2 mb-4">
+                    <Star className="h-5 w-5 fill-primary text-primary" />
+                    <span className="font-bold text-lg">4.8</span>
+                  </div>
+                  <a href="/adv" className="inline-block">
+                    <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold">
+                      SHOP PILLOWS »
+                    </Button>
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Comforter Card */}
+            <Card className="overflow-hidden border-2 hover:shadow-lg transition-shadow">
+              <CardContent className="p-0">
+                <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
+                  <div className="absolute top-4 left-4 text-5xl font-serif font-bold text-hero-blue-dark z-10">
+                    2
+                  </div>
+                  <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground border-0 text-sm px-3 py-1 font-bold">
+                    TOP RATED
+                  </Badge>
+                  <img
+                    src={cozyEarthBedroom}
+                    alt="Premium Comforter"
+                    className="w-full max-w-[200px] h-auto rounded-lg shadow-md mt-8"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-serif font-bold text-foreground mb-2">Cozy Earth Bamboo Comforter</h3>
+                  <p className="text-foreground mb-4 text-sm">
+                    Year-round comfort with temperature-regulating bamboo fill. Light, breathable, and incredibly cozy.
+                  </p>
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-center gap-2 text-sm">
+                      <Check className="h-4 w-4 text-primary" />
+                      <span>All-Season Weight</span>
+                    </li>
+                    <li className="flex items-center gap-2 text-sm">
+                      <Check className="h-4 w-4 text-primary" />
+                      <span>Hypoallergenic Fill</span>
+                    </li>
+                  </ul>
+                  <div className="flex items-center gap-2 mb-4">
+                    <Star className="h-5 w-5 fill-primary text-primary" />
+                    <span className="font-bold text-lg">4.9</span>
+                  </div>
+                  <a href="/adv" className="inline-block">
+                    <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold">
+                      SHOP COMFORTERS »
+                    </Button>
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+
         {/* About the Author Section */}
         <div className="my-12 md:my-16 bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-8 md:p-12 border border-border/50">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6 text-center">
