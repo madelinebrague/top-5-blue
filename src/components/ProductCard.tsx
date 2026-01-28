@@ -105,7 +105,7 @@ const ProductCard = ({
               <img
                 src={image}
                 alt={name}
-                className="w-full max-w-[250px] h-auto rounded-lg shadow-md hover:opacity-90 transition-opacity cursor-pointer"
+                className="w-full max-w-[250px] max-h-[180px] object-cover rounded-lg shadow-md hover:opacity-90 transition-opacity cursor-pointer"
               />
             </a>
           </div>
