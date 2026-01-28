@@ -51,6 +51,18 @@ const sheets = [
   {
     id: 3,
     rank: 3,
+    name: "BareEarth Grounding Bed Sheets",
+    image: groundingCoImage,
+    description: "Scientifically designed to reduce inflammation, promote relaxation, and hit your reset button.",
+    features: ["95% Organic Cotton, 5% Silver", "Reduces Stress & Inflammation", "Promotes Regenerative Sleep"],
+    rating: 4.5,
+    affiliateLink:
+      "https://offer.bareearthlife.com/groundedsheets/presell-wl-1?uid=3589&oid=858&affid=108&sub1=sheetex",
+    ctaText: "SHOP NOW: SAVE 50% »",
+  },
+  {
+    id: 4,
+    rank: 4,
     name: "Sleepgram Sheets",
     image: sleepgramImage,
     description: "Sleepgram's sateen is ultra-soft. These sheets are dreamy bamboo at a budget-friendly price.",
@@ -58,17 +70,6 @@ const sheets = [
     rating: 4.6,
     affiliateLink: "https://www.altoacre.com/B68SFRZ/DPTF16Z/?sub1=sheetex",
     ctaText: "SHOP NOW: SAVE 65% »",
-  },
-  {
-    id: 4,
-    rank: 4,
-    name: "BareEarth Grounding Bed Sheets",
-    image: groundingCoImage,
-    description: "Scientifically designed to reduce inflammation, promote relaxation, and hit your reset button.",
-    features: ["95% Organic Cotton, 5% Silver", "Naturally Grounds Energy", "Promotes Regenerative Sleep"],
-    rating: 4.5,
-    affiliateLink: "https://www.djpcraze.com/B68SFRZ/GG8R7HJ/?sub1=sheetex",
-    ctaText: "SHOP NOW: SAVE 50% »",
   },
   {
     id: 5,
