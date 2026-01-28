@@ -15,6 +15,7 @@ import groundingCoImage from "@/assets/grounding-co-sheets.png";
 import carilohaImage from "@/assets/cariloha-sheets.png";
 import cozyEarthModel from "@/assets/cozy-earth-model.png";
 import fluffcoZenPillow from "@/assets/fluffco-zen-pillow.png";
+import sleepProduct2 from "@/assets/sleep-product-2.png";
 import { format } from "date-fns";
 import ProductCard, { ProductCardProps } from "@/components/ProductCard";
 import StickyCta from "@/components/StickyCta";
@@ -41,7 +42,7 @@ const moreSleepProducts: ProductCardProps[] = [
     rank: 2,
     name: "Cozy Earth Bamboo Comforter",
     badge: "TOP RATED",
-    image: cozyEarthBedroom,
+    image: sleepProduct2,
     description:
       "Year-round comfort with temperature-regulating bamboo fill. Light, breathable, and incredibly cozy for the perfect night's sleep.",
     features: ["All-Season Weight", "Hypoallergenic Fill", "Temperature Regulating"],
