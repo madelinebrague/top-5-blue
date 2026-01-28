@@ -36,7 +36,7 @@ const moreSleepProducts: ProductCardProps[] = [
     ctaText: "GET 70% OFF »",
     highlightFirstFeature: true,
     customerReview: {
-      text: "It true! The pillows and the pillow cases remind me of my favorite hotel bedding!!  Absolutely love FluffCo!",
+      text: "It's true! The pillows and the pillow cases remind me of my favorite hotel bedding!!  Absolutely love FluffCo!",
       author: "John U.",
       rating: 5,
     },
