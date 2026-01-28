@@ -63,7 +63,7 @@ const moreSleepProducts: ProductCardProps[] = [
     name: "Blissy Silk Pillowcase",
     image: sleepProduct2,
     description: "This is the pillowcase your hair and skin are craving. ",
-    features: ["100% Mulberry Silk", "Anti-Aging & Smoothing", "Can Help Acne & Hair Breakage"],
+    features: ["100% Mulberry Silk", "Anti-Aging & Smoothing", "May Reduce Acne & Hair Breakage"],
     rating: 4.9,
     affiliateLink: "https://www.emrldisle.com/B68SFRZ/3W3HD9N/?uid=4095&sub1=sheetex",
     ctaText: "GET 50% OFF »",
