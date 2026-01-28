@@ -68,7 +68,7 @@ const moreSleepProducts: ProductCardProps[] = [
     features: ["100% Mulberry Silk", "Anti-Aging & Smoothing", "May Reduce Acne & Hair Breakage"],
     rating: 4.9,
     affiliateLink: "https://www.emrldisle.com/B68SFRZ/3W3HD9N/?uid=4095&sub1=sheetex",
-    ctaText: "GET 50% OFF »",
+    ctaText: "GET 55% OFF »",
   },
 ];
 
