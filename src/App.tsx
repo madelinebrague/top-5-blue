@@ -11,6 +11,7 @@ import AdvertisingDisclosure from "./pages/AdvertisingDisclosure";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import Adv from "./pages/Adv";
+import Cooling from "./pages/Cooling";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/bamboo" element={<Bamboo />} />
           <Route path="/towels" element={<Towels />} />
           <Route path="/adv" element={<Adv />} />
+          <Route path="/cooling" element={<Cooling />} />
           <Route path="/advertising-disclosure" element={<AdvertisingDisclosure />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
