@@ -17,6 +17,7 @@ import cozyEarthModel from "@/assets/cozy-earth-model.png";
 import fluffcoZenPillow from "@/assets/fluffco-zen-pillow.png";
 import sleepProduct2 from "@/assets/sleep-product-2.png";
 import dodowDevice from "@/assets/dodow-device.jpg";
+import blissyPillowcase from "@/assets/blissy-pillowcase.jpg";
 import { format } from "date-fns";
 import ProductCard, { ProductCardProps } from "@/components/ProductCard";
 import StickyCta from "@/components/StickyCta";
@@ -62,7 +63,7 @@ const moreSleepProducts: ProductCardProps[] = [
   {
     rank: 4,
     name: "Blissy Silk Pillowcase",
-    image: sleepProduct2,
+    image: blissyPillowcase,
     description: "This is the pillowcase your hair and skin are craving. ",
     features: ["100% Mulberry Silk", "Anti-Aging & Smoothing", "May Reduce Acne & Hair Breakage"],
     rating: 4.9,
