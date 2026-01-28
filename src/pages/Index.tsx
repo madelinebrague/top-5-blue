@@ -32,7 +32,7 @@ const moreSleepProducts: ProductCardProps[] = [
     features: ["OPRAH'S SLEEP AWARDS WINNER", "Luxury Hotel Feel", "Perfectly Plush Neck Support", "Hypoallergenic"],
     rating: 4.8,
     affiliateLink: "https://www.altoacre.com/B68SFRZ/FZ963ZB/?uid=42181&sub1=sheetex",
-    ctaText: "SHOP PILLOWS »",
+    ctaText: "GET 70% OFF »",
     highlightFirstFeature: true,
   },
   {
