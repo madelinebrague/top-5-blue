@@ -74,7 +74,7 @@ const sheets = [
   {
     id: 5,
     rank: 5,
-    name: "Grounding Co. Terra Bed Sheet",
+    name: "BareEarth Grounding Bed Sheets",
     image: groundingCoImage,
     description: "Scientifically designed to reduce inflammation, promote relaxation, and hit your reset button.",
     features: ["95% Organic Cotton, 5% Silver", "Naturally Grounds Energy", "Promotes Regenerative Sleep"],
@@ -591,16 +591,16 @@ const Bamboo = () => {
               <h3 className="text-xl md:text-2xl font-serif font-bold text-foreground mb-3">
                 Wellness-Focused Sleepers
               </h3>
-              <p className="text-foreground mb-4 text-sm md:text-base">
-                For those interested in grounding therapy and holistic wellness,{" "}
-                <strong>Grounding Co. Terra Bed Sheets</strong> are scientifically designed with grounding technology to
-                connect you to the earth's natural energy, potentially reducing inflammation and improving sleep
-                quality.
-              </p>
-              <a href={sheets[3].affiliateLink} target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="w-full md:w-auto">
-                  View Grounding Co. <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+            <p className="text-foreground mb-4 text-sm md:text-base">
+              For those interested in grounding therapy and holistic wellness,{" "}
+              <strong>BareEarth Grounding Bed Sheets</strong> are scientifically designed with grounding technology to
+              connect you to the earth's natural energy, potentially reducing inflammation and improving sleep
+              quality.
+            </p>
+            <a href={sheets[4].affiliateLink} target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" className="w-full md:w-auto">
+                View BareEarth <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
               </a>
             </div>
 
