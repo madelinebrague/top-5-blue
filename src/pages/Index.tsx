@@ -50,9 +50,18 @@ const moreSleepProducts: ProductCardProps[] = [
       "https://myhealiq.com/sleepshield/inter?uidab=92&oid=43&affid=1&unit=1&uid=3167&oidab2=867&affidab2=108&sub1=sheetex",
     ctaText: "GET 50% OFF »",
   },
-  // ========================================
-  // ADD MORE PRODUCTS HERE - COPY ABOVE ^^^
-  // ========================================
+  {
+    rank: 3,
+    name: "Dodow Anti-Insomnia Device",
+    image: sleepProduct2,
+    description:
+      "This is the ultimate sleep hack for insomniacs. Dodow helps you fall asleep fast, drug-free. It's a small device that projects a soothing light pattern scientifically designed to help you doze off in as little as 8 minutes.",
+    features: ["No Side Effects", "Fast, Deep SLeep", "Retrain Your Sleep Habits"],
+    rating: 4.9,
+    affiliateLink:
+      "https://getdodow.io/offer-01-dtc/?lpid=319&source_id=DL&utm_source=15033&utm_medium=&utm_term=512&aff_id=15033&sub_id=&req_id=&oid=512&device_type=&country_name=&uid=319&oid=512&affid=15033&sub1=sheetex",
+    ctaText: "GET 50% OFF »",
+  },
 ];
 
 const sheets = [
