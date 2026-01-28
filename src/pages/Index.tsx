@@ -16,6 +16,7 @@ import carilohaImage from "@/assets/cariloha-sheets.png";
 import cozyEarthModel from "@/assets/cozy-earth-model.png";
 import { format } from "date-fns";
 import ProductCard, { ProductCardProps } from "@/components/ProductCard";
+import StickyCta from "@/components/StickyCta";
 
 // ===========================================
 // MORE SLEEP PRODUCTS - EASY TO DUPLICATE!
@@ -125,7 +126,7 @@ const Index = () => {
   const currentDate = format(new Date(), "MMMM yyyy");
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background pb-20">
       {/* Header */}
       <header className="bg-black text-white py-4 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
@@ -658,7 +659,7 @@ const Index = () => {
         </div>
 
         {/* More Top Sleep Products Section */}
-        <div className="my-12 md:my-16">
+        <div id="sleep-products" className="my-12 md:my-16">
           <div className="text-center mb-8">
             <h2 className="text-5xl md:text-6xl font-serif font-bold text-foreground mb-6">More Top Sleep Products</h2>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
@@ -718,6 +719,9 @@ const Index = () => {
           </div>
         </footer>
       </div>
+
+      {/* Sticky CTA */}
+      <StickyCta />
     </div>
   );
 };
