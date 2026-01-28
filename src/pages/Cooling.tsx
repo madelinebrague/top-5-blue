@@ -62,7 +62,7 @@ const sheets = [
   {
     id: 4,
     rank: 4,
-    name: "Grounding Co. Terra Bed Sheet",
+    name: "BareEarth Grounding Bed Sheets",
     image: groundingCoImage,
     description: "Scientifically designed to reduce inflammation, promote relaxation, and hit your reset button.",
     features: ["95% Organic Cotton, 5% Silver", "Naturally Grounds Energy", "Promotes Regenerative Sleep"],
