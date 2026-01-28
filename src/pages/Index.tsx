@@ -25,11 +25,11 @@ const moreSleepProducts: ProductCardProps[] = [
   {
     rank: 1,
     name: "FluffCo Zen Pillow",
-    badge: "OPRAH'S SLEEP AWARDS WINNER",
+    badge: "TOP RATED PILLOW",
     image: sleepingPeacefully,
     description:
       "Elevate your bed with another Oprah fave. The FluffCo Zen Pillow is the same exact pillow you'll find at 5-star hotels, without the markup.",
-    features: ["Luxury Hotel Feel", "Perfectly Plush Neck Support", "Hypoallergenic"],
+    features: ["OPRAH'S SLEEP AWARDS WINNER", "Luxury Hotel Feel", "Perfectly Plush Neck Support", "Hypoallergenic"],
     rating: 4.8,
     affiliateLink: "https://www.altoacre.com/B68SFRZ/FZ963ZB/?uid=42181&sub1=sheetex",
     ctaText: "SHOP PILLOWS »",
