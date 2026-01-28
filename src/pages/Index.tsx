@@ -126,7 +126,7 @@ const Index = () => {
   const currentDate = format(new Date(), "MMMM yyyy");
 
   return (
-    <div className="min-h-screen bg-background pt-16">
+    <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="bg-black text-white py-4 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
@@ -138,6 +138,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <div
+        id="hero-section"
         className="relative pt-20 pb-12 px-4 overflow-hidden"
         style={{
           backgroundImage: `url(${sheetsBackground})`,
