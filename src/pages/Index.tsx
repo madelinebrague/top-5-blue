@@ -16,15 +16,10 @@ import carilohaImage from "@/assets/cariloha-sheets.png";
 import cozyEarthModel from "@/assets/cozy-earth-model.png";
 import fluffcoZenPillow from "@/assets/fluffco-zen-pillow.png";
 import sleepProduct2 from "@/assets/sleep-product-2.png";
-import dodowDevice from "@/assets/dodow-device.jpg";
 import { format } from "date-fns";
 import ProductCard, { ProductCardProps } from "@/components/ProductCard";
 import StickyCta from "@/components/StickyCta";
 
-// ===========================================
-// MORE SLEEP PRODUCTS - EASY TO DUPLICATE!
-// Just copy an object and change the values
-// ===========================================
 const moreSleepProducts: ProductCardProps[] = [
   {
     rank: 1,
@@ -54,13 +49,23 @@ const moreSleepProducts: ProductCardProps[] = [
   {
     rank: 3,
     name: "Dodow Anti-Insomnia Device",
-    image: dodowDevice,
+    image: sleepProduct2,
     description:
       "This is the ultimate sleep hack for insomniacs. Dodow helps you fall asleep fast, drug-free. It's a small device that projects a soothing light pattern scientifically designed to help you doze off in as little as 8 minutes.",
     features: ["No Side Effects", "Fast, Deep SLeep", "Retrain Your Sleep Habits"],
     rating: 4.9,
     affiliateLink:
       "https://getdodow.io/offer-01-dtc/?lpid=319&source_id=DL&utm_source=15033&utm_medium=&utm_term=512&aff_id=15033&sub_id=&req_id=&oid=512&device_type=&country_name=&uid=319&oid=512&affid=15033&sub1=sheetex",
+    ctaText: "GET 50% OFF »",
+  },
+  {
+    rank: 4,
+    name: "Blissy Silk Pillowcase",
+    image: sleepProduct2,
+    description: "This is the pillowcase your hair and skin are craving. ",
+    features: ["100% Mulberry Silk", "Anti-Aging & Smoothing", "Can Help Acne & Hair Breakage"],
+    rating: 4.9,
+    affiliateLink: "https://www.emrldisle.com/B68SFRZ/3W3HD9N/?uid=4095&sub1=sheetex",
     ctaText: "GET 50% OFF »",
   },
 ];
@@ -142,7 +147,8 @@ const Index = () => {
       {/* Affiliate Disclaimer */}
       <div className="bg-white text-foreground py-2 px-4 md:px-8 text-center">
         <p className="text-sm italic max-w-4xl mx-auto">
-          Affiliate disclaimer: we hold ourselves to the highest standards of editorial integrity. We may receive commission on some or all of the products on our site. Please research the products best for you!
+          Affiliate disclaimer: we hold ourselves to the highest standards of editorial integrity. We may receive
+          commission on some or all of the products on our site. Please research the products best for you!
         </p>
       </div>
 
