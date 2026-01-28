@@ -18,6 +18,7 @@ import fluffcoPillow from "@/assets/fluffco-pillow.png";
 import sleepProduct2 from "@/assets/sleep-product-2.png";
 import dodowDevice from "@/assets/dodow-device.jpg";
 import blissyPillowcase from "@/assets/blissy-pillowcase.jpg";
+import miracleComforter from "@/assets/miracle-comforter.png";
 import { format } from "date-fns";
 import ProductCard, { ProductCardProps } from "@/components/ProductCard";
 import StickyCta from "@/components/StickyCta";
@@ -94,7 +95,7 @@ const moreSleepProducts: ProductCardProps[] = [
   {
     rank: 5,
     name: "Miracle Made Cooling Comforter",
-    image: blissyPillowcase,
+    image: miracleComforter,
     description:
       "Feel cozy and cocooned but never trapped or sweaty. The Miracle Made Cooling Comforter is comfy, cozy, and fluffy, but it will cool you in all the right places!",
     features: ["3-Temperature Zone Technology", "Antimicrobial", "Ultra-Fluffy"],
