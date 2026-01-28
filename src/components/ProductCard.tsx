@@ -10,7 +10,7 @@ export interface ProductCardProps {
   image: string;
   description: string;
   features: string[];
-  rating: number;
+  rating?: number;
   affiliateLink: string;
   ctaText: string;
   /** Optional: show Oprah badge for top pick */
@@ -23,6 +23,8 @@ export interface ProductCardProps {
   bannerText?: string;
   /** Optional: banner background color class */
   bannerClass?: string;
+  /** Optional: hide the rating section */
+  hideRating?: boolean;
 }
 
 const ProductCard = ({
@@ -40,6 +42,7 @@ const ProductCard = ({
   highlightFirstFeature = false,
   bannerText,
   bannerClass = "bg-orange-500",
+  hideRating = false,
 }: ProductCardProps) => {
   const isExternalLink = affiliateLink.startsWith("http");
   const linkProps = isExternalLink
@@ -108,15 +111,17 @@ const ProductCard = ({
               </ul>
 
               {/* Ratings - Right side on desktop */}
-              <div className="flex items-start pt-4 md:pt-0 border-t md:border-t-0 md:border-l border-border/50 md:pl-8">
-                <div className="flex flex-col gap-2 md:gap-3">
-                  <span className="text-sm md:text-base font-medium text-muted-foreground">Overall Rating</span>
-                  <div className="flex items-center gap-2">
-                    <Star className="h-5 w-5 md:h-8 md:w-8 fill-primary text-primary" />
-                    <span className="font-bold text-lg md:text-4xl text-foreground">{rating}</span>
+              {!hideRating && rating && (
+                <div className="flex items-start pt-4 md:pt-0 border-t md:border-t-0 md:border-l border-border/50 md:pl-8">
+                  <div className="flex flex-col gap-2 md:gap-3">
+                    <span className="text-sm md:text-base font-medium text-muted-foreground">Overall Rating</span>
+                    <div className="flex items-center gap-2">
+                      <Star className="h-5 w-5 md:h-8 md:w-8 fill-primary text-primary" />
+                      <span className="font-bold text-lg md:text-4xl text-foreground">{rating}</span>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
             </div>
 
             {/* CTA Button */}

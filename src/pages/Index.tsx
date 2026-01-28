@@ -667,7 +667,7 @@ const Index = () => {
 
           <div className="space-y-8">
             {moreSleepProducts.map((product) => (
-              <ProductCard key={product.name} {...product} />
+              <ProductCard key={product.name} {...product} hideRating />
             ))}
           </div>
         </div>
