@@ -125,7 +125,7 @@ const ProductCard = ({
             </div>
 
             {/* CTA Button */}
-            <a {...linkProps} className="inline-block">
+            <a {...linkProps} className="block text-center md:text-left md:inline-block">
               <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
                 {ctaText}
               </Button>
