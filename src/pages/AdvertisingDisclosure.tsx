@@ -58,7 +58,7 @@ const AdvertisingDisclosure = () => {
           
           <h2 className="text-2xl font-serif font-bold mt-8 mb-4">Affiliate Relationships</h2>
           <p className="mb-4">
-            We participate in affiliate marketing programs, which means we may earn a commission when you purchase products through our links. This includes, but is not limited to, links to Cozy Earth, Miracle Made, Sleepgram, Grounding Co., and Cariloha.
+            We participate in affiliate marketing programs, which means we may earn a commission when you purchase products through our links. This includes, but is not limited to, links to Cozy Earth, Miracle Made, Sleepgram, BareEarth, and Cariloha.
           </p>
           
           <p className="mb-4">

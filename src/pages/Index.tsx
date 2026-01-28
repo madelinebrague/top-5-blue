@@ -594,15 +594,15 @@ const Index = () => {
                 Wellness-Focused Sleepers
               </h3>
               <p className="text-foreground mb-4 text-sm md:text-base">
-                For those interested in grounding therapy and holistic wellness,{" "}
-                <strong>Grounding Co. Terra Bed Sheets</strong> are scientifically designed with grounding technology to
-                connect you to the earth's natural energy, potentially reducing inflammation and improving sleep
-                quality.
-              </p>
-              <a href={sheets[3].affiliateLink} target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="w-full md:w-auto">
-                  View Grounding Co. <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+              For those interested in grounding therapy and holistic wellness,{" "}
+              <strong>BareEarth Grounding Bed Sheets</strong> are scientifically designed with grounding technology to
+              connect you to the earth's natural energy, potentially reducing inflammation and improving sleep
+              quality.
+            </p>
+            <a href={sheets[2].affiliateLink} target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" className="w-full md:w-auto">
+                View BareEarth <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
               </a>
             </div>
 
