@@ -165,7 +165,7 @@ const ProductCard = ({
 
             {/* CTA Button */}
             <a {...linkProps} className="block text-center md:text-left md:inline-block">
-              <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
+              <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-16 py-6 text-base">
                 {ctaText}
               </Button>
             </a>
