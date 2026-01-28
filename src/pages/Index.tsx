@@ -70,8 +70,8 @@ const moreSleepProducts: ProductCardProps[] = [
       "https://getdodow.io/offer-01-dtc/?lpid=319&source_id=DL&utm_source=15033&utm_medium=&utm_term=512&aff_id=15033&sub_id=&req_id=&oid=512&device_type=&country_name=&uid=319&oid=512&affid=15033&sub1=sheetex",
     ctaText: "GET 50% OFF »",
     customerReview: {
-      text: "As a chronic insomniac, I was skeptical. But this little device actually works! I fall asleep in under 10 minutes now instead of lying awake for hours.",
-      author: "Michael T.",
+      text: "I've been telling all my friends and relatives who suffer from insomnia about Dodow, so it's only right that I should share my feelings with other prospective users. I can't express my appreciation for how well I feel after a good night's sleep! Concentrating on breathing with the light helps my brain not be able to think of other things and images.",
+      author: "Linda I.",
       rating: 5,
     },
   },
