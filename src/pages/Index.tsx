@@ -43,7 +43,7 @@ const moreSleepProducts: ProductCardProps[] = [
     name: "Sleep Shield Mouth Tape",
     image: sleepProduct2,
     description:
-      "Better sleep, fresher breath, less snoring... the benefits are endless. Sleep shield is gentle on skin and boosts oxygen absorption.",
+      "Better sleep, fresher breath, less snoring... the benefits are endless. Sleep shield is gentle on skin and can even boost oxygen absorption.",
     features: ["Sleep Deeper & Stop Snoring", "Hypoallergenic", "Works With Facial Hair"],
     rating: 4.9,
     affiliateLink:
