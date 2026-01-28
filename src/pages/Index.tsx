@@ -594,15 +594,15 @@ const Index = () => {
                 Wellness-Focused Sleepers
               </h3>
               <p className="text-foreground mb-4 text-sm md:text-base">
-              For those interested in grounding therapy and holistic wellness,{" "}
-              <strong>BareEarth Grounding Bed Sheets</strong> are scientifically designed with grounding technology to
-              connect you to the earth's natural energy, potentially reducing inflammation and improving sleep
-              quality.
-            </p>
-            <a href={sheets[2].affiliateLink} target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" className="w-full md:w-auto">
-                View BareEarth <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+                For those interested in grounding therapy and holistic wellness,{" "}
+                <strong>BareEarth Grounding Bed Sheets</strong> are scientifically designed with grounding technology to
+                connect you to the earth's natural energy, potentially reducing inflammation and improving sleep
+                quality.
+              </p>
+              <a href={sheets[2].affiliateLink} target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="w-full md:w-auto">
+                  View BareEarth <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
               </a>
             </div>
 
@@ -624,192 +624,184 @@ const Index = () => {
         {/* More Top Sleep Products Section */}
         <div className="my-12 md:my-16">
           <div className="text-center mb-8">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">
-              More Top Sleep Products
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">More Top Sleep Products</h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
-              Explore our other highly-rated bedding recommendations to complete your sleep sanctuary.
+              Get better sleep than ever with these user-tested recommendations.
             </p>
           </div>
 
           <div className="space-y-8">
-          {/* Pillows Card */}
-          <Card className="overflow-hidden border-2 hover:shadow-lg transition-shadow">
-            <CardContent className="p-0">
-              <div className="grid md:grid-cols-[300px_1fr] gap-0">
-                {/* Left side - Image and Rank */}
-                <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
-                  <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-hero-blue-dark z-10">
-                    1
+            {/* Pillows Card */}
+            <Card className="overflow-hidden border-2 hover:shadow-lg transition-shadow">
+              <CardContent className="p-0">
+                <div className="grid md:grid-cols-[300px_1fr] gap-0">
+                  {/* Left side - Image and Rank */}
+                  <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
+                    <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-hero-blue-dark z-10">
+                      1
+                    </div>
+                    <a href="/adv" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4 z-10">
+                      <Badge className="bg-primary text-primary-foreground border-0 text-base px-4 py-2 font-bold hover:opacity-90 transition-opacity cursor-pointer">
+                        BEST PILLOW
+                      </Badge>
+                    </a>
+                    <a
+                      href="/adv"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block flex flex-col items-center gap-4"
+                    >
+                      <img
+                        src={sleepingPeacefully}
+                        alt="Cozy Earth Silk Pillows"
+                        className="w-full max-w-[250px] h-auto rounded-lg shadow-md hover:opacity-90 transition-opacity cursor-pointer mt-8"
+                      />
+                    </a>
                   </div>
-                  <a
-                    href="/adv"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="absolute top-4 right-4 z-10"
-                  >
-                    <Badge className="bg-primary text-primary-foreground border-0 text-base px-4 py-2 font-bold hover:opacity-90 transition-opacity cursor-pointer">
-                      BEST PILLOW
-                    </Badge>
-                  </a>
-                  <a
-                    href="/adv"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block flex flex-col items-center gap-4"
-                  >
-                    <img
-                      src={sleepingPeacefully}
-                      alt="Cozy Earth Silk Pillows"
-                      className="w-full max-w-[250px] h-auto rounded-lg shadow-md hover:opacity-90 transition-opacity cursor-pointer mt-8"
-                    />
-                  </a>
-                </div>
 
-                {/* Right side - Content */}
-                <div className="p-6 md:p-8">
-                  <a
-                    href="/adv"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:opacity-80 transition-opacity"
-                  >
-                    <h2 className="text-3xl font-serif font-bold text-foreground mb-3">Cozy Earth Silk Pillows</h2>
-                  </a>
+                  {/* Right side - Content */}
+                  <div className="p-6 md:p-8">
+                    <a
+                      href="/adv"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block hover:opacity-80 transition-opacity"
+                    >
+                      <h2 className="text-3xl font-serif font-bold text-foreground mb-3">Cozy Earth Silk Pillows</h2>
+                    </a>
 
-                  <p className="text-foreground mb-6 leading-relaxed">
-                    The perfect complement to your bamboo sheets. Ultra-plush fill with a silky-smooth bamboo cover for cloud-like comfort.
-                  </p>
+                    <p className="text-foreground mb-6 leading-relaxed">
+                      The perfect complement to your bamboo sheets. Ultra-plush fill with a silky-smooth bamboo cover
+                      for cloud-like comfort.
+                    </p>
 
-                  {/* Features and Rating Container */}
-                  <div className="md:flex md:gap-8 mb-6">
-                    {/* Features */}
-                    <ul className="space-y-2 mb-6 md:mb-0 md:flex-1">
-                      <li className="flex items-start gap-2 text-sm">
-                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                        <span className="text-foreground">100% Bamboo Viscose Cover</span>
-                      </li>
-                      <li className="flex items-start gap-2 text-sm">
-                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                        <span className="text-foreground">Adjustable Fill</span>
-                      </li>
-                      <li className="flex items-start gap-2 text-sm">
-                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                        <span className="text-foreground">Hypoallergenic</span>
-                      </li>
-                    </ul>
+                    {/* Features and Rating Container */}
+                    <div className="md:flex md:gap-8 mb-6">
+                      {/* Features */}
+                      <ul className="space-y-2 mb-6 md:mb-0 md:flex-1">
+                        <li className="flex items-start gap-2 text-sm">
+                          <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                          <span className="text-foreground">100% Bamboo Viscose Cover</span>
+                        </li>
+                        <li className="flex items-start gap-2 text-sm">
+                          <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                          <span className="text-foreground">Adjustable Fill</span>
+                        </li>
+                        <li className="flex items-start gap-2 text-sm">
+                          <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                          <span className="text-foreground">Hypoallergenic</span>
+                        </li>
+                      </ul>
 
-                    {/* Ratings - Right side on desktop */}
-                    <div className="flex items-start pt-4 md:pt-0 border-t md:border-t-0 md:border-l border-border/50 md:pl-8">
-                      <div className="flex flex-col gap-2 md:gap-3">
-                        <span className="text-sm md:text-base font-medium text-muted-foreground">Overall Rating</span>
-                        <div className="flex items-center gap-2">
-                          <Star className="h-5 w-5 md:h-8 md:w-8 fill-primary text-primary" />
-                          <span className="font-bold text-lg md:text-4xl text-foreground">4.8</span>
+                      {/* Ratings - Right side on desktop */}
+                      <div className="flex items-start pt-4 md:pt-0 border-t md:border-t-0 md:border-l border-border/50 md:pl-8">
+                        <div className="flex flex-col gap-2 md:gap-3">
+                          <span className="text-sm md:text-base font-medium text-muted-foreground">Overall Rating</span>
+                          <div className="flex items-center gap-2">
+                            <Star className="h-5 w-5 md:h-8 md:w-8 fill-primary text-primary" />
+                            <span className="font-bold text-lg md:text-4xl text-foreground">4.8</span>
+                          </div>
                         </div>
                       </div>
                     </div>
+
+                    {/* CTA Button */}
+                    <a href="/adv" target="_blank" rel="noopener noreferrer" className="inline-block">
+                      <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
+                        SHOP PILLOWS »
+                      </Button>
+                    </a>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Comforter Card */}
+            <Card className="overflow-hidden border-2 hover:shadow-lg transition-shadow">
+              <CardContent className="p-0">
+                <div className="grid md:grid-cols-[300px_1fr] gap-0">
+                  {/* Left side - Image and Rank */}
+                  <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
+                    <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-hero-blue-dark z-10">
+                      2
+                    </div>
+                    <a href="/adv" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4 z-10">
+                      <Badge className="bg-primary text-primary-foreground border-0 text-base px-4 py-2 font-bold hover:opacity-90 transition-opacity cursor-pointer">
+                        TOP RATED
+                      </Badge>
+                    </a>
+                    <a
+                      href="/adv"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block flex flex-col items-center gap-4"
+                    >
+                      <img
+                        src={cozyEarthBedroom}
+                        alt="Cozy Earth Bamboo Comforter"
+                        className="w-full max-w-[250px] h-auto rounded-lg shadow-md hover:opacity-90 transition-opacity cursor-pointer mt-8"
+                      />
+                    </a>
                   </div>
 
-                  {/* CTA Button */}
-                  <a href="/adv" target="_blank" rel="noopener noreferrer" className="inline-block">
-                    <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
-                      SHOP PILLOWS »
-                    </Button>
-                  </a>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+                  {/* Right side - Content */}
+                  <div className="p-6 md:p-8">
+                    <a
+                      href="/adv"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block hover:opacity-80 transition-opacity"
+                    >
+                      <h2 className="text-3xl font-serif font-bold text-foreground mb-3">
+                        Cozy Earth Bamboo Comforter
+                      </h2>
+                    </a>
 
-          {/* Comforter Card */}
-          <Card className="overflow-hidden border-2 hover:shadow-lg transition-shadow">
-            <CardContent className="p-0">
-              <div className="grid md:grid-cols-[300px_1fr] gap-0">
-                {/* Left side - Image and Rank */}
-                <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
-                  <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-hero-blue-dark z-10">
-                    2
-                  </div>
-                  <a
-                    href="/adv"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="absolute top-4 right-4 z-10"
-                  >
-                    <Badge className="bg-primary text-primary-foreground border-0 text-base px-4 py-2 font-bold hover:opacity-90 transition-opacity cursor-pointer">
-                      TOP RATED
-                    </Badge>
-                  </a>
-                  <a
-                    href="/adv"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block flex flex-col items-center gap-4"
-                  >
-                    <img
-                      src={cozyEarthBedroom}
-                      alt="Cozy Earth Bamboo Comforter"
-                      className="w-full max-w-[250px] h-auto rounded-lg shadow-md hover:opacity-90 transition-opacity cursor-pointer mt-8"
-                    />
-                  </a>
-                </div>
+                    <p className="text-foreground mb-6 leading-relaxed">
+                      Year-round comfort with temperature-regulating bamboo fill. Light, breathable, and incredibly cozy
+                      for the perfect night's sleep.
+                    </p>
 
-                {/* Right side - Content */}
-                <div className="p-6 md:p-8">
-                  <a
-                    href="/adv"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:opacity-80 transition-opacity"
-                  >
-                    <h2 className="text-3xl font-serif font-bold text-foreground mb-3">Cozy Earth Bamboo Comforter</h2>
-                  </a>
+                    {/* Features and Rating Container */}
+                    <div className="md:flex md:gap-8 mb-6">
+                      {/* Features */}
+                      <ul className="space-y-2 mb-6 md:mb-0 md:flex-1">
+                        <li className="flex items-start gap-2 text-sm">
+                          <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                          <span className="text-foreground">All-Season Weight</span>
+                        </li>
+                        <li className="flex items-start gap-2 text-sm">
+                          <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                          <span className="text-foreground">Hypoallergenic Fill</span>
+                        </li>
+                        <li className="flex items-start gap-2 text-sm">
+                          <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                          <span className="text-foreground">Temperature Regulating</span>
+                        </li>
+                      </ul>
 
-                  <p className="text-foreground mb-6 leading-relaxed">
-                    Year-round comfort with temperature-regulating bamboo fill. Light, breathable, and incredibly cozy for the perfect night's sleep.
-                  </p>
-
-                  {/* Features and Rating Container */}
-                  <div className="md:flex md:gap-8 mb-6">
-                    {/* Features */}
-                    <ul className="space-y-2 mb-6 md:mb-0 md:flex-1">
-                      <li className="flex items-start gap-2 text-sm">
-                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                        <span className="text-foreground">All-Season Weight</span>
-                      </li>
-                      <li className="flex items-start gap-2 text-sm">
-                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                        <span className="text-foreground">Hypoallergenic Fill</span>
-                      </li>
-                      <li className="flex items-start gap-2 text-sm">
-                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                        <span className="text-foreground">Temperature Regulating</span>
-                      </li>
-                    </ul>
-
-                    {/* Ratings - Right side on desktop */}
-                    <div className="flex items-start pt-4 md:pt-0 border-t md:border-t-0 md:border-l border-border/50 md:pl-8">
-                      <div className="flex flex-col gap-2 md:gap-3">
-                        <span className="text-sm md:text-base font-medium text-muted-foreground">Overall Rating</span>
-                        <div className="flex items-center gap-2">
-                          <Star className="h-5 w-5 md:h-8 md:w-8 fill-primary text-primary" />
-                          <span className="font-bold text-lg md:text-4xl text-foreground">4.9</span>
+                      {/* Ratings - Right side on desktop */}
+                      <div className="flex items-start pt-4 md:pt-0 border-t md:border-t-0 md:border-l border-border/50 md:pl-8">
+                        <div className="flex flex-col gap-2 md:gap-3">
+                          <span className="text-sm md:text-base font-medium text-muted-foreground">Overall Rating</span>
+                          <div className="flex items-center gap-2">
+                            <Star className="h-5 w-5 md:h-8 md:w-8 fill-primary text-primary" />
+                            <span className="font-bold text-lg md:text-4xl text-foreground">4.9</span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
 
-                  {/* CTA Button */}
-                  <a href="/adv" target="_blank" rel="noopener noreferrer" className="inline-block">
-                    <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
-                      SHOP COMFORTERS »
-                    </Button>
-                  </a>
+                    {/* CTA Button */}
+                    <a href="/adv" target="_blank" rel="noopener noreferrer" className="inline-block">
+                      <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
+                        SHOP COMFORTERS »
+                      </Button>
+                    </a>
+                  </div>
                 </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
           </div>
         </div>
 
