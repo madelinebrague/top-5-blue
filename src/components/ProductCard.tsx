@@ -1,7 +1,15 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Star, Check, Award } from "lucide-react";
+import { Star, Check, Award, ChevronDown } from "lucide-react";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import { useState } from "react";
+
+export interface CustomerReview {
+  text: string;
+  author: string;
+  rating: number;
+}
 
 export interface ProductCardProps {
   rank: number;
@@ -25,6 +33,8 @@ export interface ProductCardProps {
   bannerClass?: string;
   /** Optional: hide the rating section */
   hideRating?: boolean;
+  /** Optional: customer review */
+  customerReview?: CustomerReview;
 }
 
 const ProductCard = ({
@@ -43,11 +53,25 @@ const ProductCard = ({
   bannerText,
   bannerClass = "bg-orange-500",
   hideRating = false,
+  customerReview,
 }: ProductCardProps) => {
+  const [isReviewOpen, setIsReviewOpen] = useState(false);
   const isExternalLink = affiliateLink.startsWith("http");
   const linkProps = isExternalLink
     ? { href: affiliateLink, target: "_blank", rel: "noopener noreferrer" }
     : { href: affiliateLink };
+
+  const ReviewContent = () => (
+    <div className="bg-muted/30 rounded-lg p-4">
+      <div className="flex items-center gap-1 mb-2">
+        {[...Array(customerReview?.rating || 5)].map((_, i) => (
+          <Star key={i} className="h-4 w-4 fill-primary text-primary" />
+        ))}
+      </div>
+      <p className="text-sm text-foreground italic mb-2">"{customerReview?.text}"</p>
+      <p className="text-xs text-muted-foreground font-medium">— {customerReview?.author}</p>
+    </div>
+  );
 
   return (
     <Card className="overflow-hidden border-2 hover:shadow-lg transition-shadow">
@@ -57,7 +81,7 @@ const ProductCard = ({
         </div>
       )}
       <CardContent className="p-0">
-        <div className="grid md:grid-cols-[300px_1fr] gap-0">
+        <div className={`grid ${customerReview ? 'md:grid-cols-[280px_1fr_280px]' : 'md:grid-cols-[300px_1fr]'} gap-0`}>
           {/* Left side - Image and Rank */}
           <div className="relative bg-muted/30 p-6 flex flex-col items-center justify-center">
             <div className="absolute top-4 left-4 text-6xl font-serif font-bold text-hero-blue-dark z-10">
@@ -86,7 +110,7 @@ const ProductCard = ({
             </a>
           </div>
 
-          {/* Right side - Content */}
+          {/* Middle - Content */}
           <div className="p-6 md:p-8">
             <a {...linkProps} className="block hover:opacity-80 transition-opacity">
               <h2 className="text-3xl font-serif font-bold text-foreground mb-3">{name}</h2>
@@ -124,6 +148,21 @@ const ProductCard = ({
               )}
             </div>
 
+            {/* Mobile Customer Review Dropdown */}
+            {customerReview && (
+              <div className="md:hidden mb-6">
+                <Collapsible open={isReviewOpen} onOpenChange={setIsReviewOpen}>
+                  <CollapsibleTrigger className="flex items-center justify-between w-full bg-muted/50 rounded-lg px-4 py-3 text-sm font-medium text-foreground hover:bg-muted/70 transition-colors">
+                    <span>Read Customer Review</span>
+                    <ChevronDown className={`h-4 w-4 transition-transform ${isReviewOpen ? 'rotate-180' : ''}`} />
+                  </CollapsibleTrigger>
+                  <CollapsibleContent className="pt-3">
+                    <ReviewContent />
+                  </CollapsibleContent>
+                </Collapsible>
+              </div>
+            )}
+
             {/* CTA Button */}
             <a {...linkProps} className="block text-center md:text-left md:inline-block">
               <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-12">
@@ -131,6 +170,16 @@ const ProductCard = ({
               </Button>
             </a>
           </div>
+
+          {/* Right side - Customer Review (Desktop only) */}
+          {customerReview && (
+            <div className="hidden md:flex flex-col justify-center p-6 border-l border-border/50 bg-muted/10">
+              <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3">
+                Customer Review
+              </h3>
+              <ReviewContent />
+            </div>
+          )}
         </div>
       </CardContent>
     </Card>

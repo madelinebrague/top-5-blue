@@ -35,6 +35,11 @@ const moreSleepProducts: ProductCardProps[] = [
     affiliateLink: "https://www.altoacre.com/B68SFRZ/FZ963ZB/?uid=42181&sub1=sheetex",
     ctaText: "GET 70% OFF »",
     highlightFirstFeature: true,
+    customerReview: {
+      text: "I've tried so many pillows over the years and nothing comes close to this one. It's like sleeping on a cloud every single night!",
+      author: "Sarah M.",
+      rating: 5,
+    },
   },
   {
     rank: 2,
@@ -47,6 +52,11 @@ const moreSleepProducts: ProductCardProps[] = [
     affiliateLink:
       "https://myhealiq.com/sleepshield/inter?uidab=92&oid=43&affid=1&unit=1&uid=3167&oidab2=867&affidab2=108&sub1=sheetex",
     ctaText: "GET 50% OFF »",
+    customerReview: {
+      text: "My husband stopped snoring after just one night! We both sleep so much better now. Game changer for our marriage!",
+      author: "Jennifer K.",
+      rating: 5,
+    },
   },
   {
     rank: 3,
@@ -59,6 +69,11 @@ const moreSleepProducts: ProductCardProps[] = [
     affiliateLink:
       "https://getdodow.io/offer-01-dtc/?lpid=319&source_id=DL&utm_source=15033&utm_medium=&utm_term=512&aff_id=15033&sub_id=&req_id=&oid=512&device_type=&country_name=&uid=319&oid=512&affid=15033&sub1=sheetex",
     ctaText: "GET 50% OFF »",
+    customerReview: {
+      text: "As a chronic insomniac, I was skeptical. But this little device actually works! I fall asleep in under 10 minutes now instead of lying awake for hours.",
+      author: "Michael T.",
+      rating: 5,
+    },
   },
   {
     rank: 4,
@@ -69,6 +84,11 @@ const moreSleepProducts: ProductCardProps[] = [
     rating: 4.9,
     affiliateLink: "https://www.emrldisle.com/B68SFRZ/3W3HD9N/?uid=4095&sub1=sheetex",
     ctaText: "GET 55% OFF »",
+    customerReview: {
+      text: "My hair has never looked better in the mornings! No more frizz or breakage. My skin feels smoother too. Worth every penny!",
+      author: "Amanda R.",
+      rating: 5,
+    },
   },
 ];
 
