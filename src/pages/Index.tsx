@@ -85,8 +85,8 @@ const moreSleepProducts: ProductCardProps[] = [
     affiliateLink: "https://www.emrldisle.com/B68SFRZ/3W3HD9N/?uid=4095&sub1=sheetex",
     ctaText: "GET 55% OFF »",
     customerReview: {
-      text: "My hair has never looked better in the mornings! No more frizz or breakage. My skin feels smoother too. Worth every penny!",
-      author: "Amanda R.",
+      text: "I bought one of these for my daughter months ago, then one for me. I then decided I’d treat myself to a spare for when I wash the first one. I’ll be buying my kiddo a spare too and wouldn’t hesitate to buy a third for me. They’re that good.",
+      author: "Jennifer M.",
       rating: 5,
     },
   },
