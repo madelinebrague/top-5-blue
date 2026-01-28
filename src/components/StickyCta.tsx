@@ -1,7 +1,25 @@
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 const StickyCta = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const heroSection = document.getElementById("hero-section");
+      if (heroSection) {
+        const heroBottom = heroSection.getBoundingClientRect().bottom;
+        setIsVisible(heroBottom < 0);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Check initial position
+    
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const scrollToSleepProducts = () => {
     const section = document.getElementById("sleep-products");
     if (section) {
@@ -9,8 +27,10 @@ const StickyCta = () => {
     }
   };
 
+  if (!isVisible) return null;
+
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-md py-3 px-4">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-md py-3 px-4 animate-fade-in">
       <div className="max-w-4xl mx-auto flex gap-3 justify-center">
         <a
           href="https://cozyearth.com"
