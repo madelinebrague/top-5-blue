@@ -40,15 +40,15 @@ const moreSleepProducts: ProductCardProps[] = [
   },
   {
     rank: 2,
-    name: "Cozy Earth Bamboo Comforter",
-    badge: "TOP RATED",
+    name: "Sleep Shield Mouth Tape",
     image: sleepProduct2,
     description:
-      "Year-round comfort with temperature-regulating bamboo fill. Light, breathable, and incredibly cozy for the perfect night's sleep.",
-    features: ["All-Season Weight", "Hypoallergenic Fill", "Temperature Regulating"],
+      "Better sleep, fresher breath, less snoring... the benefits are endless. Sleep shield is gentle on skin and boosts oxygen absorption.",
+    features: ["Sleep Deeper & Stop Snoring", "Hypoallergenic", "Works With Facial Hair"],
     rating: 4.9,
-    affiliateLink: "/adv",
-    ctaText: "SHOP COMFORTERS »",
+    affiliateLink:
+      "https://myhealiq.com/sleepshield/inter?uidab=92&oid=43&affid=1&unit=1&uid=3167&oidab2=867&affidab2=108&sub1=sheetex",
+    ctaText: "GET 50% OFF »",
   },
   // ========================================
   // ADD MORE PRODUCTS HERE - COPY ABOVE ^^^
