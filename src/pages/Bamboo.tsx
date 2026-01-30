@@ -14,7 +14,101 @@ import sleepgramImage from "@/assets/sleepgram-sheets.png";
 import groundingCoImage from "@/assets/grounding-co-sheets.png";
 import carilohaImage from "@/assets/cariloha-sheets.png";
 import cozyEarthModel from "@/assets/cozy-earth-model.png";
+import fluffcoPillow from "@/assets/fluffco-pillow.png";
+import sleepProduct2 from "@/assets/sleep-product-2.png";
+import dodowDevice from "@/assets/dodow-device.jpg";
+import blissyPillowcase from "@/assets/blissy-pillowcase.jpg";
+import miracleComforter from "@/assets/miracle-comforter.png";
 import { format } from "date-fns";
+import ProductCard, { ProductCardProps } from "@/components/ProductCard";
+import StickyCta from "@/components/StickyCta";
+
+const moreSleepProducts: ProductCardProps[] = [
+  {
+    rank: 1,
+    name: "FluffCo Zen Pillow",
+    badge: "TOP RATED PILLOW",
+    image: fluffcoPillow,
+    description:
+      "Elevate your bed with another Oprah fave. The FluffCo Zen Pillow is the same exact pillow you'll find at 5-star hotels, without the markup.",
+    features: ["OPRAH'S SLEEP AWARDS WINNER", "Luxury Hotel Feel", "Perfectly Plush Neck Support", "Hypoallergenic"],
+    rating: 4.8,
+    affiliateLink: "https://www.altoacre.com/B68SFRZ/FZ963ZB/?uid=42181&sub1=sheetex",
+    ctaText: "GET 70% OFF »",
+    highlightFirstFeature: true,
+    customerReview: {
+      text: "It's true! The pillows and the pillow cases remind me of my favorite hotel bedding!!  Absolutely love FluffCo!",
+      author: "John U.",
+      rating: 5,
+    },
+  },
+  {
+    rank: 2,
+    name: "Sleep Shield Mouth Tape",
+    image: sleepProduct2,
+    description:
+      "Better sleep, fresher breath, less snoring... the benefits are endless. Sleep shield is gentle on skin and can even boost oxygen absorption.",
+    features: ["Sleep Deeper & Stop Snoring", "Hypoallergenic", "Works With Facial Hair"],
+    rating: 4.9,
+    affiliateLink:
+      "https://myhealiq.com/sleepshield/inter?uidab=92&oid=43&affid=1&unit=1&uid=3167&oidab2=867&affidab2=108&sub1=sheetex",
+    ctaText: "GET 50% OFF »",
+    customerReview: {
+      text: "This tape stays put all night and comes off without hurting my skin. Love it!",
+      author: "Sarah W.",
+      rating: 5,
+    },
+  },
+  {
+    rank: 3,
+    name: "Dodow Anti-Insomnia Device",
+    image: dodowDevice,
+    description:
+      "This is the ultimate sleep hack for insomniacs. Dodow helps you fall asleep fast, drug-free. It's a small device that projects a soothing light pattern scientifically designed to help you doze off in as little as 8 minutes.",
+    features: ["No Side Effects", "Fast, Deep SLeep", "Retrain Your Sleep Habits"],
+    rating: 4.9,
+    affiliateLink:
+      "https://getdodow.io/offer-01-dtc/?lpid=319&source_id=DL&utm_source=15033&utm_medium=&utm_term=512&aff_id=15033&sub_id=&req_id=&oid=512&device_type=&country_name=&uid=319&oid=512&affid=15033&sub1=sheetex",
+    ctaText: "GET 50% OFF »",
+    customerReview: {
+      text: "I can't express my appreciation for how well I feel after a good night's sleep! Concentrating on breathing with the light helps my brain not be able to think of other things and images.",
+      author: "Linda I.",
+      rating: 5,
+    },
+  },
+  {
+    rank: 4,
+    name: "Blissy Silk Pillowcase",
+    image: blissyPillowcase,
+    description:
+      "This is the pillowcase your hair and skin are craving. Blissy is the supermodel secret that keeps your hair and skin looking smooth and glowy in the morning.",
+    features: ["100% Mulberry Silk", "Anti-Aging & Smoothing", "May Reduce Acne & Hair Breakage"],
+    rating: 4.9,
+    affiliateLink: "https://www.emrldisle.com/B68SFRZ/3W3HD9N/?uid=4095&sub1=sheetex",
+    ctaText: "GET 55% OFF »",
+    customerReview: {
+      text: "I bought one of these for my daughter months ago, then one for me. I then decided I'd treat myself to a spare for when I wash the first one. I'll be buying my kiddo a spare too and wouldn't hesitate to buy a third for me. They're that good.",
+      author: "Jennifer M.",
+      rating: 5,
+    },
+  },
+  {
+    rank: 5,
+    name: "Miracle Made Cooling Comforter",
+    image: miracleComforter,
+    description:
+      "Feel cozy and cocooned but never trapped or sweaty. The Miracle Made Cooling Comforter is comfy, cozy, and fluffy, but it will cool you in all the right places!",
+    features: ["3-Temperature Zone Technology", "Antimicrobial", "Ultra-Fluffy"],
+    rating: 4.9,
+    affiliateLink: "https://www.oobots.com/B68SFRZ/F89J3CM/?sub1=sheetex",
+    ctaText: "SEE SPECIAL OFFER »",
+    customerReview: {
+      text: "This miracle comforter truly is great for year-round use and regulates body heat so well. I'm ecstatic I have finally found 'the one'! I love that it has different levels of heat retention throughout and it just feels so thoughtfully designed. Highly recommend!",
+      author: "Justin R.",
+      rating: 5,
+    },
+  },
+];
 
 const sheets = [
   {
@@ -100,6 +194,7 @@ const Bamboo = () => {
 
       {/* Hero Section */}
       <div
+        id="hero-section"
         className="relative pt-20 pb-12 px-4 overflow-hidden"
         style={{
           backgroundImage: `url(${sheetsBackground})`,
@@ -619,6 +714,22 @@ const Bamboo = () => {
           </div>
         </div>
 
+        {/* More Top Sleep Products Section */}
+        <div id="sleep-products" className="my-12 md:my-16">
+          <div className="text-center mb-8">
+            <h2 className="text-5xl md:text-6xl font-serif font-bold text-foreground mb-6">More Top Sleep Products</h2>
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
+              Get better sleep than ever with these user-tested recommendations.
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            {moreSleepProducts.map((product) => (
+              <ProductCard key={product.name} {...product} hideRating />
+            ))}
+          </div>
+        </div>
+
         {/* About the Author Section */}
         <div className="my-12 md:my-16 bg-gradient-to-br from-muted/30 to-muted/10 rounded-xl p-8 md:p-12 border border-border/50">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6 text-center">
@@ -664,6 +775,9 @@ const Bamboo = () => {
           </div>
         </footer>
       </div>
+
+      {/* Sticky CTA */}
+      <StickyCta />
     </div>
   );
 };
