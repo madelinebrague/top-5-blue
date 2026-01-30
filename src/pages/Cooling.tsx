@@ -99,45 +99,54 @@ const Cooling = () => {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <div
-        className="relative pt-20 pb-12 px-4 overflow-hidden"
-        style={{
-          backgroundImage: `url(${sheetsBackground})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        {/* Gradient overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-radial from-white/95 via-white/85 to-white/70"></div>
+      {/* Cooling Hero Section */}
+      <div className="relative pt-16 pb-16 px-4 overflow-hidden bg-gradient-to-br from-hero-blue via-hero-blue-dark to-primary">
+        {/* Decorative elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          {/* Subtle wave pattern */}
+          <div className="absolute top-0 left-0 right-0 h-full opacity-10">
+            <svg className="w-full h-full" viewBox="0 0 1200 400" preserveAspectRatio="none">
+              <path d="M0,100 C300,200 400,0 600,100 C800,200 900,0 1200,100 L1200,400 L0,400 Z" fill="white" />
+              <path d="M0,150 C200,250 400,50 600,150 C800,250 1000,50 1200,150 L1200,400 L0,400 Z" fill="white" opacity="0.5" />
+            </svg>
+          </div>
+          {/* Ice crystal decorations */}
+          <div className="absolute top-10 left-10 w-20 h-20 border border-white/20 rotate-45 rounded-lg"></div>
+          <div className="absolute top-20 right-20 w-16 h-16 border border-white/15 rotate-12 rounded-lg"></div>
+          <div className="absolute bottom-20 left-1/4 w-12 h-12 border border-white/10 -rotate-12 rounded-lg"></div>
+          <div className="absolute bottom-10 right-1/3 w-24 h-24 border border-white/10 rotate-45 rounded-lg"></div>
+        </div>
 
         <div className="relative max-w-6xl mx-auto text-center">
-          {/* White bar behind text */}
-          <div className="bg-white py-8 px-4 mb-6 max-w-3xl mx-auto">
-            <h2 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-foreground">
-              {" "}
-              5 Best Bed Sheets Of 2026
-            </h2>
-            <p className="text-lg text-muted-foreground text-black max-w-2xl mx-auto">
-              If you invest in anything, sleep should come first. Grab your pajamas and check out our top 5 picks of the
-              year.
-            </p>
+          {/* Cooling badge */}
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6">
+            <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707" />
+            </svg>
+            <span className="text-white/90 text-sm font-medium">Stay Cool All Night</span>
           </div>
 
+          <h2 className="text-4xl md:text-6xl font-serif font-bold mb-4 text-white drop-shadow-lg">
+            Best <span className="text-accent">Cooling</span> Sheets of 2026
+          </h2>
+          <p className="text-lg md:text-xl text-white/85 max-w-2xl mx-auto mb-8 leading-relaxed">
+            Wake up refreshed, not sweaty. Our top picks for temperature-regulating sheets that keep you cool and comfortable all night long.
+          </p>
+
           <div className="flex flex-col items-center">
-            <div className="flex items-center gap-3 text-sm text-muted-foreground mb-10">
+            <div className="flex items-center gap-3 text-sm mb-8 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
               <img
                 src={authorImage}
                 alt="Katelyn Zowalski"
-                className="w-10 h-10 rounded-full object-cover border-2 border-white shadow-md"
+                className="w-10 h-10 rounded-full object-cover border-2 border-white/50 shadow-md"
               />
               <div className="text-left">
-                <div className="font-semibold text-foreground">Katelyn Zowalski</div>
-                <div>
+                <div className="font-semibold text-white">Katelyn Zowalski</div>
+                <div className="text-white/70">
                   {currentDate} •{" "}
                   <Link
                     to="/advertising-disclosure"
-                    className="text-primary font-semibold underline hover:no-underline"
+                    className="text-white/90 font-semibold underline hover:no-underline"
                   >
                     Sponsored
                   </Link>
@@ -147,7 +156,7 @@ const Cooling = () => {
             <a href="/adv">
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-10 mb-4"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-base px-10 py-6 shadow-lg"
               >
                 SAVE 20% ON OUR TOP PICK <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
